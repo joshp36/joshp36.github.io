@@ -10,12 +10,12 @@
             "title": "Meadows steps",
             "hfov": 100.0,
             "type": "multires",
-            "hotSpotDebug": true,
+            "hotSpotDebug": false,
             "compass": true,
             "northOffset": 276,
             "hotSpots": [
                 {
-                    "pitch": 11,
+                    "pitch": 9,
                     "yaw": 27,
                     "type": "scene",
                     "text": "Hope courtyard",
@@ -45,7 +45,7 @@
             "title": "Hope courtyard",
             "hfov": 100.0,
             "type": "multires",
-            "hotSpotDebug": false,
+            "hotSpotDebug": true,
             "compass": true,
             "northOffset": 276,
             "hotSpots": [
