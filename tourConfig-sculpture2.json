@@ -1,4 +1,5 @@
 {
+    "basePath": {""},
     "default": {
         "firstScene": "sculpture",
         "author": "Josh Porter",
@@ -32,7 +33,7 @@
             ],
             
             "multiRes": {
-                "basePath": "./img/panos/sculpture",
+                "basePath": "/img/panos/sculpture",
                 "path": "/%l/%s%y_%x",
                 "fallbackPath": "/fallback/%s",
                 "extension": "jpg",
