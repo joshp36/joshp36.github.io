@@ -70,7 +70,7 @@
             ],
             
             "multiRes": {
-                "basePath": "/img/panos/HLobby",
+                "basePath": "/img/panos/courtyard",
                 "path": "/%l/%s%y_%x",
                 "fallbackPath": "/fallback/%s",
                 "extension": "jpg",
