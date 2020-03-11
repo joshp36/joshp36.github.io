@@ -31,6 +31,15 @@
                     "sceneId": "courtyard",
                     "targetPitch": "same",
                     "targetYaw": "sameAzimuth"
+                },
+                {
+                    "pitch": 15,
+                    "yaw": 27,
+                    "type": "scene",
+                    "text": "Hope lobby",
+                    "sceneId": "HLobby",
+                    "targetPitch": "same",
+                    "targetYaw": "sameAzimuth"
                 }
             ]
         },
@@ -61,7 +70,7 @@
                     "targetYaw": "sameAzimuth"
                 },
                 {
-                    "pitch": -9,
+                    "pitch": 10,
                     "yaw": -150,
                     "type": "scene",
                     "text": "Hope lobby",
@@ -89,10 +98,10 @@
             "northOffset": 276,
             "hotSpots": [
                 {
-                    "pitch": -9,
+                    "pitch": 10,
                     "yaw": -150,
                     "type": "scene",
-                    "text": "Meadows steps",
+                    "text": "Meadows courtyard",
                     "sceneId": "sculpture",
                     "targetPitch": "same",
                     "targetYaw": "sameAzimuth"
