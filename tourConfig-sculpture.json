@@ -33,8 +33,8 @@
                     "targetYaw": "sameAzimuth"
                 },
                 {
-                    "pitch": 5.25,
-                    "yaw": 13.35,
+                    "pitch": 4.75,
+                    "yaw": 6.5,
                     "type": "scene",
                     "text": "Hope lobby",
                     "sceneId": "HLobby",
