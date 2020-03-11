@@ -5,7 +5,7 @@
     "compass": true,
     "northOffset": 276,
     "multiRes": {
-	"basePath": "/img/panos/NQuad"
+        "basePath": "img/panos/NQuad",
         "path": "/%l/%s%y_%x",
         "fallbackPath": "/fallback/%s",
         "extension": "jpg",

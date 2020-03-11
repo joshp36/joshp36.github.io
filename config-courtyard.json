@@ -5,7 +5,7 @@
     "compass": true,
     "northOffset": 276,
     "multiRes": {
-	"basePath": "/img/panos/courtyard"
+        "basePath": "img/panos/courtyard",
         "path": "/%l/%s%y_%x",
         "fallbackPath": "/fallback/%s",
         "extension": "jpg",
