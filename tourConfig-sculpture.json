@@ -19,7 +19,7 @@
                 "maxLevel": 5,
                 "cubeResolution": 8072
             },
-            "hotSpotDebug": false,
+            "hotSpotDebug": true,
             "compass": true,
             "northOffset": 276,
             "hotSpots": [
