@@ -50,8 +50,8 @@
             "northOffset": 276,
             "hotSpots": [
                 {
-                    "pitch": 11,
-                    "yaw": 27,
+                    "pitch": -9,
+                    "yaw": -150,
                     "type": "scene",
                     "text": "Meadows steps",
                     "sceneId": "sculpture",
