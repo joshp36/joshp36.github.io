@@ -1,5 +1,5 @@
 {
-    "basePath": {""},
+    "basePath": ".",
     "default": {
         "firstScene": "sculpture",
         "author": "Josh Porter",
@@ -7,6 +7,7 @@
     },
   
     "scenes": {
+      
         "sculpture": {
             "title": "Meadows steps",
             "hfov": 100.0,
@@ -42,6 +43,7 @@
                 "cubeResolution": 8072
             }
         },
+        
         "courtyard": {
             "title": "Hope courtyard",
             "hfov": 100.0,
@@ -78,5 +80,5 @@
             }
         },
   
-}
+    }
 }
