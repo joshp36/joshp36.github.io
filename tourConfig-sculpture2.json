@@ -1,0 +1,83 @@
+{
+    "default": {
+        "firstScene": "sculpture",
+        "author": "Josh Porter",
+        "sceneFadeDuration": 750
+    },
+  
+    "scenes": {
+        "sculpture": {
+            "title": "Meadows steps",
+            "hfov": 100.0,
+            "type": "multires",
+            "hotSpotDebug": false,
+            "compass": true,
+            "northOffset": 276,
+            "hotSpots": [
+                {
+                    "pitch": 11,
+                    "yaw": 27,
+                    "type": "scene",
+                    "text": "Hope courtyard",
+                    "sceneId": "courtyard",
+                    "targetPitch": "same",
+                    "targetYaw": "sameAzimuth"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 11,
+                    "text": "test",
+                    "type": "info"
+                }
+            ],
+            
+            "multiRes": {
+                "basePath": "img/panos/sculpture",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 5,
+                "cubeResolution": 8072
+            }
+        },
+        "courtyard": {
+            "title": "Hope courtyard",
+            "hfov": 100.0,
+            "type": "multires",
+            "hotSpotDebug": false,
+            "compass": true,
+            "northOffset": 276,
+            "hotSpots": [
+                {
+                    "pitch": 11,
+                    "yaw": 27,
+                    "type": "scene",
+                    "text": "Meadows steps",
+                    "sceneId": "sculpture",
+                    "targetPitch": "same",
+                    "targetYaw": "sameAzimuth"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 11,
+                    "text": "test",
+                    "type": "info"
+                }
+            ],
+            
+            "multiRes": {
+                "basePath": "img/panos/HLobby",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 5,
+                "cubeResolution": 8048
+            }
+        },
+  
+
+
+
+}
