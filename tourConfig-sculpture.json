@@ -19,7 +19,7 @@
                     "yaw": 27,
                     "type": "scene",
                     "text": "Hope courtyard",
-                    "sceneId": "courtyard"
+                    "sceneId": "courtyard",
                     "targetPitch": "same",
                     "targetYaw": "sameAzimuth"
                 },
