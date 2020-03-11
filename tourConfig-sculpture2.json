@@ -20,7 +20,7 @@
             },
             "title": "Meadows steps",
             "hfov": 100.0,
-            "hotSpotDebug": false,
+            "hotSpotDebug": true,
             "compass": true,
             "northOffset": 276,
             "hotSpots": [
