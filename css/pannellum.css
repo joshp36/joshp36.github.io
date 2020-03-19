@@ -183,7 +183,7 @@
     font-size: 12px;
     display: table;
     padding-left: 5px;
-    table-layout: auto;
+    max-width: 600px;
 }
 
 .pnlm-load-box {
