@@ -120,7 +120,7 @@ defaultConfig.strings = {
     // Labels
     loadButtonLabel: 'Click to<br>Load<br>Panorama',
     loadingLabel: 'Loading...',
-    bylineLabel: 'by %s',    // One substitution: author
+    bylineLabel: '%s',    // One substitution: author
 
     // Errors
     noPanoramaError: 'No panorama image was specified.',
