@@ -35,17 +35,25 @@ body {
 }
 
 .btn.btn-default {
-  padding: 1rem 0;
+  /*padding: 1rem 0;*/
+  height:55px;
   font-size: 1.7rem;
-  background-color: #147979;
+  background-color: #798086;
+    color: #e6e6e6;
   border-color: #373739;
   border-radius: 0;
+  -webkit-box-shadow: 0px 15px 26px -9px rgba(50, 50, 50, 0.2);
+    -moz-box-shadow:    0px 15px 26px -9px rgba(50, 50, 50, 0.2);
+    box-shadow:         0px 15px 26px -9px rgba(50, 50, 50, 0.2);
+
 }
 .btn.btn-default:hover, .btn.btn-default:active, .btn.btn-default:focus, .btn.btn-default.is-checked {
-  background-color: #093737;
-  color: white;
-  border: none;
-  outline: none;
+  background-color: #ebeced;
+  color: #1a1a1a;
+    font-weight: bold;
+  border-color: #ebeced;
+  transition: 0.3s;
+
 }
 
 .thumbnail {
