@@ -1,0 +1,497 @@
+{
+  "default": {
+              "sceneFadeDuration": 750,
+              "autoLoad": true,
+              "hfov": 105.0,
+              "type": "multires",
+              "compass": true,
+              "hotSpotDebug": false,
+              "autoRotate": -1
+              },
+  
+  "scenes": {
+    
+            "1stA": {
+                        "title": "Umphrey Lee Entrance",
+                        "author": "The Umphrey Lee Center, fondly called “Umph” by our students, is home to the Advertising, Corporate Communication and Public Affairs, Journalism, and Film and Media Arts Divisions. ",
+                        "northOffset": 0.0,
+                        "multiRes": {
+                                    "basePath": "img/panos/1stA",
+                                    "path": "/%l/%s%y_%x",
+                                    "fallbackPath": "/fallback/%s",
+                                    "extension": "jpg",
+                                    "tileResolution": 512,
+                                    "maxLevel": 5,
+                                    "cubeResolution": 8048
+                                     },
+                        "hotSpots": [
+                                     {
+                                      "pitch": 14.49,
+                                      "yaw": 37.02,
+                                      "type": "info",
+                                      "text": "The First Amendment is an ethical core to much of what is taught in our communication-oriented majors: Advertising, CCPA, and Journalism students take required ethics courses, in which they discuss the amendment’s five imperative civil rights."
+                                     },
+                                     {
+                                      "pitch": -12.74,
+                                      "yaw": -122.68,
+                                      "type": "info",
+                                      "text": "The Umphrey Lee Center is also home to one of SMU’s two all-you-can-eat cafeterias, featuring home-style, vegetarian, vegan, and international foods, plus a large salad bar and desserts area."
+                                     },
+                                     {
+                                      "pitch": -4.10,
+                                      "yaw": -51.68,
+                                      "type": "scene",
+                                      "text": "Focus Group Room",
+                                      "sceneId": "observation",
+                                      "targetPitch": 0,
+                                      "targetYaw": 0
+                                      },
+                                     {
+                                      "pitch": -9.49,
+                                      "yaw": -45.28,
+                                      "type": "scene",
+                                      "text": "Film Equipment Cage",
+                                      "sceneId": "cage",
+                                      "targetPitch": 0,
+                                      "targetYaw": 0
+                                      },
+                                     {
+                                      "pitch": -5.50,
+                                      "yaw": -35.84,
+                                      "type": "scene",
+                                      "text": "Pederson Broadcast Studio",
+                                      "sceneId": "studio",
+                                      "targetPitch": 0,
+                                      "targetYaw": 0
+                                      }
+                                    ]
+                          },
+                          
+        "observation": {
+                        "title": "Focus Group Room",
+                        "author": "Students in the Advertising Research class learn about and train to moderate focus group sessions, including a host of interview techniques, interactive activities, and projection exercises designed to obtain in-depth information and reaction from group participants.",
+                        "northOffset": 90,
+                        "multiRes": {
+                                    "basePath": "img/panos/observation",
+                                    "path": "/%l/%s%y_%x",
+                                    "fallbackPath": "/fallback/%s",
+                                    "extension": "jpg",
+                                    "tileResolution": 512,
+                                    "maxLevel": 5,
+                                    "cubeResolution": 8048
+                                     },
+                        "hotSpots": [
+                                     {
+                                      "pitch": -7.93,
+                                      "yaw": -13.30,
+                                      "type": "info",
+                                      "text": "The focus group facility is equipped with recording equipment, a viewing room with mirrored glass for observation, and furniture that can be arranged for interview sessions with up to 12 people."
+                                     },
+                                     {
+                                      "pitch": -7.78,
+                                      "yaw": -233.46,
+                                      "type": "scene",
+                                      "text": "Brand Studio",
+                                      "sceneId": "collab",
+                                      "targetPitch": 0,
+                                      "targetYaw": 0
+                                      },
+                                      {
+                                      "pitch": -9.24,
+                                      "yaw": 108.41,
+                                      "type": "scene",
+                                      "text": "Umphrey Lee Entrance",
+                                      "sceneId": "1stA",
+                                      "targetPitch": 0,
+                                      "targetYaw": 0
+                                      }
+                                    ]
+                          },
+                          
+             "collab": {
+                        "title": "Brand Studio",
+                        "author": "The open atmosphere of the Brand Studio makes it perfect for use as a collaborative space and for working independently.",
+                        "northOffset": 90,
+                        "multiRes": {
+                                    "basePath": "img/panos/collab",
+                                    "path": "/%l/%s%y_%x",
+                                    "fallbackPath": "/fallback/%s",
+                                    "extension": "jpg",
+                                    "tileResolution": 512,
+                                    "maxLevel": 5,
+                                    "cubeResolution": 8048
+                                     },
+                        "hotSpots": [
+                                     {
+                                      "pitch": -6.53,
+                                      "yaw": -59.43,
+                                      "type": "scene",
+                                      "text": "Creative Studio",
+                                      "sceneId": "portfolio",
+                                      "targetPitch": 0,
+                                      "targetYaw": "sameAzimuth"
+                                      },
+                                      {
+                                      "pitch": -4.62,
+                                      "yaw": 88.70,
+                                      "type": "scene",
+                                      "text": "Focus Group Room",
+                                      "sceneId": "observation",
+                                      "targetPitch": 0,
+                                      "targetYaw": 0
+                                      }
+                                    ]
+                          },
+                          
+          "portfolio": {
+                        "title": "Creative Studio",
+                        "author": "Both classroom and creative space, the modular Creative Studio also showcases the many industry awards won by our students.",
+                        "northOffset": -90,
+                        "multiRes": {
+                                    "basePath": "img/panos/portfolio",
+                                    "path": "/%l/%s%y_%x",
+                                    "fallbackPath": "/fallback/%s",
+                                    "extension": "jpg",
+                                    "tileResolution": 512,
+                                    "maxLevel": 5,
+                                    "cubeResolution": 8048
+                                    },
+                        "hotSpots": [
+                                      {
+                                        "pitch": -6.40,
+                                        "yaw": -116.53,
+                                        "type": "info",
+                                        "text": "Students regularly win awards including national and district AAF championships, as well as dozens of creative awards in prestigious regional, national, and international competitions such as The One Show, CMYK Magazine, and The Art Directors Club of New York."
+                                      },
+                                      {
+                                        "pitch": -5.34,
+                                        "yaw": -55.27,
+                                        "type": "scene",
+                                        "text": "Brand Studio",
+                                        "sceneId": "collab",
+                                        "targetPitch": 0,
+                                        "targetYaw": "sameAzimuth"
+                                      }
+                                    ]
+                          },
+                          
+               "cage": {
+                        "title": "Film Equipment Cage",
+                        "author": "The boutique size of the Film and Media Arts Division makes checking out gear a breeze, whether you need cameras, lighting and grip gear, dolly tracks, location sound equipment and more.",
+                        "northOffset": -180,
+                        "multiRes": {
+                                    "basePath": "img/panos/cage",
+                                    "path": "/%l/%s%y_%x",
+                                    "fallbackPath": "/fallback/%s",
+                                    "extension": "jpg",
+                                    "tileResolution": 512,
+                                    "maxLevel": 5,
+                                    "cubeResolution": 8048
+                                    },
+                        "hotSpots": [
+                                      {
+                                        "pitch": -1.75,
+                                        "yaw": -85.42,
+                                        "type": "info",
+                                        "text": "First-year students start with Sony NX3 cameras, then move on to Sony FS7s, then advance to the RED Scarlet-W 5k by junior or senior year."
+                                      },
+                                      {
+                                        "pitch": -2.71,
+                                        "yaw": 34.53,
+                                        "type": "scene",
+                                        "text": "Umphrey Lee Entrance",
+                                        "sceneId": "1stA",
+                                        "targetPitch": 0,
+                                        "targetYaw": 0
+                                      },
+                                      {
+                                        "pitch": -2.71,
+                                        "yaw": 18.99,
+                                        "type": "scene",
+                                        "text": "Editing Lab",
+                                        "sceneId": "eClass",
+                                        "targetPitch": 0,
+                                        "targetYaw": 0
+                                      }
+                                    ]
+                          },
+                          
+               "eClass": {
+                          "title": "Editing Lab",
+                          "author": "Film students can count on the power of the Division’s enhanced Macintosh computers, all equipped to handle the heavy lifting needed for film and video editing. Software includes Adobe Creative Suite, AVID, and Pro Tools.",
+                          "northOffset": 0.0,
+                          "multiRes": {
+                                      "basePath": "img/panos/eClass",
+                                      "path": "/%l/%s%y_%x",
+                                      "fallbackPath": "/fallback/%s",
+                                      "extension": "jpg",
+                                      "tileResolution": 512,
+                                      "maxLevel": 5,
+                                      "cubeResolution": 8048
+                                      },
+                          "hotSpots": [
+                                        {
+                                          "pitch": -2.45,
+                                          "yaw": -51.53,
+                                          "type": "scene",
+                                          "text": "Film Equipment Cage",
+                                          "sceneId": "cage",
+                                          "targetPitch": 0,
+                                          "targetYaw": 0
+                                        },
+                                        {
+                                          "pitch": -1.95,
+                                          "yaw": -41.81,
+                                          "type": "scene",
+                                          "text": "Audio Lab",
+                                          "sceneId": "soundPre",
+                                          "targetPitch": 0,
+                                          "targetYaw": 0
+                                        }
+                                      ]
+                          },
+                          
+             "soundPre": {
+                          "title": "Audio Lab",
+                          "author": "The soundtrack can make all the difference. Meadows students get hands-on experience in recording, editing, mixing and sound design on industry-standard equipment.",
+                          "northOffset": -180,
+                          "multiRes": {
+                                      "basePath": "img/panos/soundPre",
+                                      "path": "/%l/%s%y_%x",
+                                      "fallbackPath": "/fallback/%s",
+                                      "extension": "jpg",
+                                      "tileResolution": 512,
+                                      "maxLevel": 5,
+                                      "cubeResolution": 8048
+                                      },
+                          "hotSpots": [
+                                        {
+                                          "pitch": -5.69,
+                                          "yaw": -91.27,
+                                          "type": "info",
+                                          "text": "Students create sounds in the Foley Studio that help their scenes hit the right emotional notes: the flutter of feathers, the stomp of boots ascending the stairs, the slosh of water in a bucket and more."
+                                        },
+                                        {
+                                          "pitch": -5.45,
+                                          "yaw": 93.22,
+                                          "type": "info",
+                                          "text": "When location sound recording has been compromised by airplanes flying overhead, cars honking, etc., students can re-record their dialogue in the ADR studio and reclaim clean tracks."
+                                        },
+                                        {
+                                          "pitch": -11.88,
+                                          "yaw": -164.70,
+                                          "type": "scene",
+                                          "text": "Editing Lab",
+                                          "sceneId": "eClass",
+                                          "targetPitch": 0,
+                                          "targetYaw": 0
+                                        },
+                                        {
+                                          "pitch": -4.33,
+                                          "yaw": -15.96,
+                                          "type": "scene",
+                                          "text": "Sound Mixing Studio",
+                                          "sceneId": "sound",
+                                          "targetPitch": 0,
+                                          "targetYaw": "sameAzimuth"
+                                        },
+                                        {
+                                          "pitch": -10.97,
+                                          "yaw": -143.56,
+                                          "type": "scene",
+                                          "text": "Advanced Editing Booth",
+                                          "sceneId": "eBooth",
+                                          "targetPitch": 0,
+                                          "targetYaw": 0
+                                        }
+                                      ]
+                          },
+                          
+               "sound": {
+                          "title": "Sound Mixing Studio",
+                          "author": "Whether working on thesis projects or short class assignments, students can create and mix their tracks using 5.1 Surround-Sound.",
+                          "northOffset": -90,
+                          "multiRes": {
+                                      "basePath": "img/panos/sound",
+                                      "path": "/%l/%s%y_%x",
+                                      "fallbackPath": "/fallback/%s",
+                                      "extension": "jpg",
+                                      "tileResolution": 512,
+                                      "maxLevel": 5,
+                                      "cubeResolution": 8048
+                                      },
+                          "hotSpots": [
+                                        {
+                                          "pitch": -3.00,
+                                          "yaw": 72.55,
+                                          "type": "scene",
+                                          "text": "Audio Lab",
+                                          "sceneId": "soundPre",
+                                          "targetPitch": 0,
+                                          "targetYaw": "sameAzimuth"
+                                        }
+                                      ]
+                          },
+                          
+              "eBooth": {
+                          "title": "Advanced Editing Booth",
+                          "author": "Students can reserve an advanced editing booth, a sound-isolated space that includes the DaVinci Resolve color correction system, Adobe Creative Suite, AVID, and Pro Tools.",
+                          "northOffset": 0.0,
+                          "multiRes": {
+                                      "basePath": "img/panos/eBooth",
+                                      "path": "/%l/%s%y_%x",
+                                      "fallbackPath": "/fallback/%s",
+                                      "extension": "jpg",
+                                      "tileResolution": 512,
+                                      "maxLevel": 5,
+                                      "cubeResolution": 8048
+                                      },
+                          "hotSpots": [
+                                        {
+                                          "pitch": -24.27,
+                                          "yaw": -6.04,
+                                          "type": "info",
+                                          "text": "The DaVinci Resolve software provides advanced color grading for any type of project, whether it’s a commercial, short film, thesis project, or the feature-length film produced in the Division’s Summer Film Production."
+                                        },
+                                        {
+                                          "pitch": -11.40,
+                                          "yaw": 177.82,
+                                          "type": "scene",
+                                          "text": "Audio Lab",
+                                          "sceneId": "soundPre",
+                                          "targetPitch": 0,
+                                          "targetYaw": 0
+                                        }
+                                      ]
+                          },
+                          
+              "studio": {
+                          "title": "Pederson Broadcast Studio",
+                          "author": "The Broadcast Studio is where our students use the highest quality equipment to learn how to master every aspect of creating a successful show.",
+                          "northOffset": -180,
+                          "multiRes": {
+                                      "basePath": "img/panos/studio",
+                                      "path": "/%l/%s%y_%x",
+                                      "fallbackPath": "/fallback/%s",
+                                      "extension": "jpg",
+                                      "tileResolution": 512,
+                                      "maxLevel": 5,
+                                      "cubeResolution": 8048
+                                      },
+                          "hotSpots": [
+                                        {
+                                          "pitch": -12.35,
+                                          "yaw": 77.90,
+                                          "type": "info",
+                                          "text": "This is the set for our news show, The Daily Update, and our sports show, Press Pass."
+                                        },
+                                        {
+                                          "pitch": -18.54,
+                                          "yaw": 1.30,
+                                          "type": "info",
+                                          "text": "This set is home to our fashion news show, SMU LOOK."
+                                        },
+                                        {
+                                          "pitch": -9.88,
+                                          "yaw": -48.97,
+                                          "type": "info",
+                                          "text": "This new set will be completed and in our rotation this upcoming school year."
+                                        },
+                                        {
+                                          "pitch": 0.65,
+                                          "yaw": -86.59,
+                                          "type": "scene",
+                                          "text": "Control Room",
+                                          "sceneId": "control",
+                                          "targetPitch": 0,
+                                          "targetYaw": "sameAzimuth"
+                                        },
+                                        {
+                                          "pitch": -3.24,
+                                          "yaw": -167.20,
+                                          "type": "scene",
+                                          "text": "Umphrey Lee Entrance",
+                                          "sceneId": "1stA",
+                                          "targetPitch": 0,
+                                          "targetYaw": 0
+                                        }
+                                      ]
+                          },
+                          
+              "control": {
+                          "title": "Control Room",
+                          "author": "Students are trained on more than a dozen positions in the control room and broadcast studio, including audio, camera, teleprompter, graphics, and more.",
+                          "northOffset": -180,
+                          "multiRes": {
+                                      "basePath": "img/panos/control",
+                                      "path": "/%l/%s%y_%x",
+                                      "fallbackPath": "/fallback/%s",
+                                      "extension": "jpg",
+                                      "tileResolution": 512,
+                                      "maxLevel": 5,
+                                      "cubeResolution": 8048
+                                      },
+                          "hotSpots": [
+                                        {
+                                          "pitch": -7.26,
+                                          "yaw": 0.0,
+                                          "type": "info",
+                                          "text": "Because Meadows’ Journalism Division receives the same raw video footage as CBS and CNN, our students can cover stories happening anywhere in the world."
+                                        },
+                                        {
+                                          "pitch": -1.89,
+                                          "yaw": -282.13,
+                                          "type": "scene",
+                                          "text": "Pederson Broadcast Studio",
+                                          "sceneId": "studio",
+                                          "targetPitch": 0,
+                                          "targetYaw": "sameAzimuth"
+                                        },
+                                        {
+                                          "pitch": -2.77,
+                                          "yaw": -216.60,
+                                          "type": "scene",
+                                          "text": "Newsroom",
+                                          "sceneId": "newsroom",
+                                          "targetPitch": 0,
+                                          "targetYaw": 0
+                                        }
+                                      ]
+                          },
+                          
+             "newsroom": {
+                          "title": "Newsroom",
+                          "author": "Students produce news, sports, fashion, and political television shows; the award-winning SMU LOOK fashion magazine; the smudailycampus.com news site; and the smulook.com fashion website.",
+                          "northOffset": -90,
+                          "multiRes": {
+                                      "basePath": "img/panos/newsroom",
+                                      "path": "/%l/%s%y_%x",
+                                      "fallbackPath": "/fallback/%s",
+                                      "extension": "jpg",
+                                      "tileResolution": 512,
+                                      "maxLevel": 5,
+                                      "cubeResolution": 8048
+                                      },
+                          "hotSpots": [
+                                        {
+                                          "pitch": -13.29,
+                                          "yaw": 45.43,
+                                          "type": "info",
+                                          "text": "All majors prepare for the industry by learning iNEWS, the newsroom computer system used in many large-market media outlets."
+                                        },
+                                        {
+                                          "pitch": -4.37,
+                                          "yaw": 16.26,
+                                          "type": "scene",
+                                          "text": "Control Room",
+                                          "sceneId": "control",
+                                          "targetPitch": 0,
+                                          "targetYaw": 0
+                                        }
+                                      ]
+                          }
+
+                     
+            }
+            
+}
