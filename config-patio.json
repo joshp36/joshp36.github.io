@@ -5,12 +5,12 @@
     "compass": true,
     "northOffset": 276,
     "multiRes": {
-        "basePath": "img/panos/WRoom",
+        "basePath": "img/panos/patio",
         "path": "/%l/%s%y_%x",
         "fallbackPath": "/fallback/%s",
         "extension": "jpg",
         "tileResolution": 512,
         "maxLevel": 5,
-        "cubeResolution": 8056
+        "cubeResolution": 8048
     }
 }
