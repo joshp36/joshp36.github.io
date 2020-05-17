@@ -2,7 +2,8 @@
     "default": {
         "firstScene": "courtyard",
         "author": "Josh Porter",
-        "sceneFadeDuration": 750
+        "sceneFadeDuration": 750,
+	"autoRotate": -1
     },
   
     "scenes": {

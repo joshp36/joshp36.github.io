@@ -4,6 +4,7 @@
     "hotSpotDebug": false,
     "compass": true,
     "northOffset": 276,
+"autoRotate": -1,
     "multiRes": {
         "basePath": "img/panos/LRoom",
         "path": "/%l/%s%y_%x",

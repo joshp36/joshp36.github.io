@@ -2,7 +2,8 @@
     "default": {
         "firstScene": "sculpture",
         "author": "The Green Room is where our actors, dancers and students relax between scenes and classes. Note the bulletin board in the back, which lists audition ops and casting sheets. Spin left or right to see the spiral staircases that lead to the backstage areas of the Hope Theatre and the Margo Jones black box.",
-        "sceneFadeDuration": 750
+        "sceneFadeDuration": 750,
+	"autoRotate": -1
     },
   
     "scenes": {
