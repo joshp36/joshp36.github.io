@@ -1,0 +1,17 @@
+{
+    "hfov": 100.0,
+    "type": "multires",
+    "hotSpotDebug": false,
+    "compass": true,
+    "northOffset": 276,
+"autoRotate": -1,
+    "multiRes": {
+        "basePath": "img/panos/LClass2",
+        "path": "/%l/%s%y_%x",
+        "fallbackPath": "/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 5,
+        "cubeResolution": 8048
+    }
+}
