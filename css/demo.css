@@ -82,6 +82,11 @@ section {
 	white-space: break-spaces;
 }
 
+.codrops-header h1 span a:hover {
+	  opacity: 1;
+
+}
+
 /* Demo links */
 .codrops-demos {
 	clear: both;
