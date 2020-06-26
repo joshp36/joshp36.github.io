@@ -78,6 +78,7 @@ section {
 	  opacity: .5;
 	font-weight: 300;
 	font-size: 45%;
+	white-space: break-spaces;
 }
 
 /* Demo links */
