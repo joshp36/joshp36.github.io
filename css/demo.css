@@ -23,7 +23,8 @@ body {
 
 a {
 	outline: none;
-	color: #3498db;
+	color: #edf8ff;
+	font-weight: bold;
 	text-decoration: none;
 }
 
