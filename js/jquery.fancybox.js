@@ -2301,7 +2301,7 @@
     // fix css inconsistency across browsers
     // =====================================
 
-   /* adjustCaption: function (slide) {
+    adjustCaption: function (slide) {
       var self = this,
         current = slide || self.current,
         caption = current.opts.caption,
@@ -2369,7 +2369,7 @@
 
         current.$content.css("margin-bottom", marginBottom);
       }
-    }, */
+    },
 
     // Make content visible
     // This method is called right after content has been loaded or
