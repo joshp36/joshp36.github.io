@@ -2337,7 +2337,7 @@
     // https://bugzilla.mozilla.org/show_bug.cgi?id=748518
     // ====================================================================================
 
-    adjustLayout: function (slide) {
+    /* adjustLayout: function (slide) {
       var self = this,
         current = slide || self.current,
         scrollHeight,
@@ -2369,7 +2369,7 @@
 
         current.$content.css("margin-bottom", marginBottom);
       }
-    },
+    }, */
 
     // Make content visible
     // This method is called right after content has been loaded or
