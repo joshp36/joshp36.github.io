@@ -2301,7 +2301,7 @@
     // fix css inconsistency across browsers
     // =====================================
 
-    adjustCaption: function (slide) {
+   /* adjustCaption: function (slide) {
       var self = this,
         current = slide || self.current,
         caption = current.opts.caption,
@@ -2337,7 +2337,7 @@
     // https://bugzilla.mozilla.org/show_bug.cgi?id=748518
     // ====================================================================================
 
-    /* adjustLayout: function (slide) {
+     adjustLayout: function (slide) {
       var self = this,
         current = slide || self.current,
         scrollHeight,
