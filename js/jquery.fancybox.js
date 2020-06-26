@@ -279,7 +279,7 @@
     },
 
     thumbs: {
-      autoStart: true, // Display thumbnails on opening
+      autoStart: false, // Display thumbnails on opening
       hideOnClose: true, // Hide thumbnail grid when closing animation starts
       parentEl: ".fancybox-container", // Container is injected into this element
       axis: "y" // Vertical (y) or horizontal (x) scrolling
