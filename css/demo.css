@@ -26,16 +26,14 @@ a {
 	color: white;
 	font-weight: bold;
 	text-decoration: none;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
 }
 
 a:hover, a:focus {
 	color: white;
-  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.95);
 }
 
-/* added grow hover to "here" */
-.grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.1); }
 
 section {
 	padding: 1em;
