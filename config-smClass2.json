@@ -3,7 +3,7 @@
     "type": "multires",
     "hotSpotDebug": false,
     "compass": true,
-    "northOffset": 276,
+    "northOffset": 90,
 "autoRotate": -1,
     "multiRes": {
         "basePath": "img/panos/smClass2",

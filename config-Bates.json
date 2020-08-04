@@ -3,7 +3,7 @@
     "type": "multires",
     "hotSpotDebug": false,
     "compass": true,
-    "northOffset": 276,
+    "northOffset": 0,
 "autoRotate": -1,
     "multiRes": {
         "basePath": "img/panos/Bates",
