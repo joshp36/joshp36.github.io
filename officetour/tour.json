@@ -5,7 +5,7 @@
         "sceneFadeDuration": 750,
         "autoLoad": true,
         "type": "equirectangular",
-        "hfov": 125.0,
+        "hfov": 120.0,
         "autoRotate": -1,
         "compass": true,
         "hotSpotDebug": true
