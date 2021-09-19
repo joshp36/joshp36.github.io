@@ -20,13 +20,18 @@ pannellum.viewer('panorama', {
     "default": {
         "firstScene": "waiting",
         //"author": "Matthew Petroff",
-        "sceneFadeDuration": 1000
+        "sceneFadeDuration": 1000,
+        "autoLoad": true,
+        "hfov": 105.0,
+        "type": "multires",
+        "compass": false,
+        "hotSpotDebug": false,
+        "autoRotate": -1
     },
 
     "scenes": {
         "outside": {
             "title": "entrance",
-            "hfov": 110,
             "pitch": -3,
             "yaw": 117,
             "type": "equirectangular",
@@ -44,7 +49,6 @@ pannellum.viewer('panorama', {
 
         "lobby1": {
             "title": "waiting room",
-            "hfov": 110,
             "yaw": 5,
             "type": "equirectangular",
             "panorama": "/lobby1.jpg",
