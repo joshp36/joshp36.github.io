@@ -161,6 +161,13 @@
                                     "sceneId": "bathroom",
                                     "pitch": -5,
                                     "yaw": 3
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "hallway",
+                                    "sceneId": "hall1",
+                                    "pitch": -13.5,
+                                    "yaw": -331
                                   }
                                  ]
                     },
