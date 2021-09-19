@@ -110,7 +110,7 @@
                                   },
                                   {
                                     "type": "scene",
-                                    "text": "front desk",
+                                    "text": "front desk area",
                                     "sceneId": "front",
                                     "pitch": -15,
                                     "yaw": 153
@@ -132,10 +132,10 @@
                                  ]
                     },
 
-         "front": {
+         "frontdesk": {
                      "title": "front desk area",
                      "author": "",
-                     "panorama": "images/front.jpg",
+                     "panorama": "images/frontdesk.jpg",
                      "pitch": -30,
                      "yaw": 57,
                      "hotSpots": [
