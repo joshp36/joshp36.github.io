@@ -141,8 +141,8 @@
                      "hotSpots": [
                                   {
                                     "type": "scene",
-                                    "text": "entryway",
-                                    "sceneId": "front",
+                                    "text": "consultation",
+                                    "sceneId": "consultation",
                                     "pitch": -15,
                                     "yaw": 153
                                   },
@@ -151,13 +151,6 @@
                                     "text": "patient bathroom",
                                     "sceneId": "bathroom",
                                     "pitch": -25,
-                                    "yaw": 153
-                                  },
-                                  {
-                                    "type": "scene",
-                                    "text": "conference room",
-                                    "sceneId": "conference",
-                                    "pitch": -35,
                                     "yaw": 153
                                   }
                                  ]
