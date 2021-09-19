@@ -20,7 +20,7 @@ pannellum.viewer('panorama', {
     "default": {
         "firstScene": "waiting",
         //"author": "This is where the room's description would go",
-        "sceneFadeDuration": 1000,
+        "sceneFadeDuration": 750,
         "autoLoad": true,
         "hfov": 105.0,
         "type": "multires",
@@ -41,7 +41,7 @@ pannellum.viewer('panorama', {
                     "pitch": -2.1,
                     "yaw": 132.9,
                     "type": "scene",
-                    "text": "enter",
+                    "text": "enter lobby",
                     "sceneId": "lobby1"
                 }
         },
@@ -53,11 +53,11 @@ pannellum.viewer('panorama', {
             "panorama": "images/lobby1.jpg",
             "hotSpots": [
                 {
+                    "type": "scene",
+                    "sceneId": "outside",
+                    "text": "entrance",
                     "pitch": -0.6,
                     "yaw": 37.1,
-                    "type": "scene",
-                    "text": "entrance",
-                    "sceneId": "outside",
                     "targetYaw": -23,
                     "targetPitch": 2
                 },
