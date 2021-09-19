@@ -18,7 +18,7 @@
 <script>
 pannellum.viewer('panorama', {
     "default": {
-        "firstScene": "waiting",
+        "firstScene": "lobby1",
         //"author": "This is where the room's description would go",
         "sceneFadeDuration": 750,
         "autoLoad": true,
@@ -32,6 +32,7 @@ pannellum.viewer('panorama', {
     "scenes": {
         "outside": {
             "title": "entrance",
+            "author": "",
             "pitch": -3,
             "yaw": 117,
             "panorama": "images/outside.jpg",
@@ -45,9 +46,8 @@ pannellum.viewer('panorama', {
                 }
         },
 
-        "waiting": {
+        "lobby1": {
             "title": "waiting room",
-            "yaw": 5,
             "panorama": "images/lobby1.jpg",
             "hotSpots": [
                 {
