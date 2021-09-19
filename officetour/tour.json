@@ -17,12 +17,12 @@
                      "title": "entrance",
                      "author": "",
                      "panorama": "images/outside.jpg",
-                     "northOffset": -119,
+                     "northOffset": 177.5,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "enter",
-                                    "sceneId": "lobby1",
+                                    "sceneId": "lobby2",
                                     "targetPitch": 0,
                                     "targetYaw": 31,
                                     "pitch": -9,
@@ -31,41 +31,11 @@
                                  ]
                     },
 
-         "lobby1": {
-                     "title": "waiting room",
-                     "author": "",
-                     "panorama": "images/lobby1.jpg",
-                     "northOffset": -119,
-                     "hotSpots": [
-                                  {
-                                    "type": "scene",
-                                    "text": "entrance",
-                                    "sceneId": "outside",
-                                    "pitch": -21,
-                                    "yaw": 33
-                                  },
-                                  {
-                                    "type": "scene",
-                                    "text": "",
-                                    "sceneId": "lobby2",
-                                    "pitch": -37,
-                                    "yaw": 136
-                                  },
-                                  {
-                                    "type": "scene",
-                                    "text": "consultation area",
-                                    "sceneId": "consultation",
-                                    "pitch": -8,
-                                    "yaw": 184
-                                  }
-                                 ]
-                    },
-
          "lobby2": {
                      "title": "waiting room",
                      "author": "",
                      "panorama": "images/lobby2.jpg",
-                     "northOffset": -119,
+                     "northOffset": -47.9,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -88,14 +58,14 @@
                      "title": "consultation area",
                      "author": "",
                      "panorama": "images/consultation.jpg",
-                     "northOffset": -119,
+                     "northOffset": -39.8,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "waiting room",
                                     "sceneId": "lobby2",
-                                    "pitch": -7,
-                                    "yaw": -1
+                                    "pitch": -24,
+                                    "yaw": -3.5
                                   },
                                   {
                                     "type": "scene",
@@ -116,7 +86,7 @@
                                     "text": "conference room",
                                     "sceneId": "conference",
                                     "pitch": -9,
-                                    "yaw": 159
+                                    "yaw": -159
                                   },
                                   {
                                     "type": "scene",
@@ -132,7 +102,7 @@
                      "title": "front desk area",
                      "author": "",
                      "panorama": "images/frontdesk.jpg",
-                     "northOffset": -119,
+                     "northOffset": -128.3,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -155,7 +125,7 @@
                      "title": "patient bathroom",
                      "author": "",
                      "panorama": "images/bathroom.jpg",
-                     "northOffset": -119,
+                     "northOffset": 50.7,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -178,7 +148,7 @@
                      "title": "conference room",
                      "author": "",
                      "panorama": "images/conference.jpg",
-                     "northOffset": -119,
+                     "northOffset": -90,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -198,10 +168,10 @@
                     },
 
          "hall1": {
-                     "title": "conference room",
+                     "title": "main hallway",
                      "author": "",
                      "panorama": "images/hall1.jpg",
-                     "northOffset": -119,
+                     "northOffset": 178.5,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -252,7 +222,7 @@
                      "title": "hygiene",
                      "author": "",
                      "panorama": "images/hygiene1.jpg",
-                     "northOffset": -119,
+                     "northOffset": 80.9,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -282,7 +252,7 @@
                      "title": "hygiene",
                      "author": "",
                      "panorama": "images/hygiene2.jpg",
-                     "northOffset": -119,
+                     "northOffset": 58.8,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -294,7 +264,7 @@
                                   {
                                     "type": "scene",
                                     "text": "operatory #2",
-                                    "sceneId": "opp2a",
+                                    "sceneId": "opp2b",
                                     "pitch": -10,
                                     "yaw": 251
                                   },
@@ -312,7 +282,7 @@
                      "title": "operatory #1",
                      "author": "",
                      "panorama": "images/opp1a.jpg",
-                     "northOffset": -119,
+                     "northOffset": 99.3,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -342,7 +312,7 @@
                      "title": "operatory #1",
                      "author": "",
                      "panorama": "images/opp1b.jpg",
-                     "northOffset": -119,
+                     "northOffset": -27.3,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -372,7 +342,7 @@
                      "title": "operatory #2",
                      "author": "",
                      "panorama": "images/opp2a.jpg",
-                     "northOffset": -119,
+                     "northOffset": 61.8,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -402,7 +372,7 @@
                      "title": "operatory #2",
                      "author": "",
                      "panorama": "images/opp2b.jpg",
-                     "northOffset": -119,
+                     "northOffset": 133.5,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -432,7 +402,7 @@
                      "title": "sleep eval",
                      "author": "",
                      "panorama": "images/sleep.jpg",
-                     "northOffset": -119,
+                     "northOffset": -129.9,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -455,7 +425,7 @@
                      "title": "",
                      "author": "",
                      "panorama": "images/hall2.jpg",
-                     "northOffset": -119,
+                     "northOffset": 114.4,
                      "hotSpots": [
                                   {
                                     "type": "scene",
