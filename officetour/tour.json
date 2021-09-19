@@ -108,7 +108,7 @@
                                   {
                                     "type": "scene",
                                     "text": "front desk area",
-                                    "sceneId": "front",
+                                    "sceneId": "frontdesk",
                                     "pitch": -15,
                                     "yaw": 153
                                   },
