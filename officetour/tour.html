@@ -3,8 +3,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tour</title>
-    <link rel="stylesheet" href="/pannellum.css"/>
-    <script type="text/javascript" src="/pannellum.js"></script>
+    <link rel="stylesheet" href="/css/pannellum.css"/>
+    <script type="text/javascript" src="/js/pannellum.js"></script>
     <style>
     #panorama {
         width: 600px;
@@ -35,7 +35,7 @@ pannellum.viewer('panorama', {
             "pitch": -3,
             "yaw": 117,
             "type": "equirectangular",
-            "panorama": "/images/outside.jpg",
+            "panorama": "images/outside.jpg",
             "hotSpots": [
                 {
                     "pitch": -2.1,
@@ -44,24 +44,31 @@ pannellum.viewer('panorama', {
                     "text": "enter",
                     "sceneId": "lobby1"
                 }
-            ]
         },
 
         "lobby1": {
             "title": "waiting room",
             "yaw": 5,
             "type": "equirectangular",
-            "panorama": "/lobby1.jpg",
+            "panorama": "images/lobby1.jpg",
             "hotSpots": [
                 {
                     "pitch": -0.6,
                     "yaw": 37.1,
                     "type": "scene",
-                    "text": "Mason Circle",
-                    "sceneId": "circle",
+                    "text": "entrance",
+                    "sceneId": "outside",
                     "targetYaw": -23,
                     "targetPitch": 2
+                },
+                {
+                    "pitch": -20.1,
+                    "yaw": 152.9,
+                    "type": "scene",
+                    "text": "enter",
+                    "sceneId": "lobby1"
                 }
+            ]
             ]
         }
     }
