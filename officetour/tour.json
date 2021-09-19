@@ -8,7 +8,7 @@
         "hfov": 105.0,
         "autoRotate": -1,
         "compass": false,
-        "hotSpotDebug": false
+        "hotSpotDebug": true
     },
 
     "scenes": {
@@ -42,12 +42,12 @@
                                   {
                                     "type": "scene",
                                     "text": "enter lobby",
-                                    "sceneId": "lobby1"
+                                    "sceneId": "lobby1",
                                     "pitch": -2.1,
-                                    "yaw": 132.9,
+                                    "yaw": 132.9
                                   }
                                  ]
-                    },
+                    }
 
     }
 }
