@@ -236,30 +236,16 @@
                     },
 
          "hygiene1": {
-                     "title": "conference room",
+                     "title": "hygiene",
                      "author": "",
-                     "panorama": "images/hall1.jpg",
+                     "panorama": "images/hygiene1.jpg",
 
                      "hotSpots": [
                                   {
                                     "type": "scene",
-                                    "text": "consultation",
-                                    "sceneId": "consultation",
-                                    "pitch": -15,
-                                    "yaw": 153
-                                  },
-                                  {
-                                    "type": "scene",
-                                    "text": "hygiene",
-                                    "sceneId": "hygiene1",
+                                    "text": "",
+                                    "sceneId": "hygiene2",
                                     "pitch": -25,
-                                    "yaw": 153
-                                  },
-                                  {
-                                    "type": "scene",
-                                    "text": "operatory #1",
-                                    "sceneId": "opp1a",
-                                    "pitch": -35,
                                     "yaw": 153
                                   },
                                   {
@@ -271,8 +257,38 @@
                                   },
                                   {
                                     "type": "scene",
-                                    "text": "sleep eval",
-                                    "sceneId": "sleep",
+                                    "text": "hallway",
+                                    "sceneId": "hall1",
+                                    "pitch": -55,
+                                    "yaw": 153
+                                  }
+                                 ]
+                    },
+
+         "hygiene2": {
+                     "title": "hygiene",
+                     "author": "",
+                     "panorama": "images/hygiene2.jpg",
+
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "",
+                                    "sceneId": "hygiene1",
+                                    "pitch": -25,
+                                    "yaw": 153
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "operatory #2",
+                                    "sceneId": "opp2a",
+                                    "pitch": -45,
+                                    "yaw": 153
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "hallway",
+                                    "sceneId": "hall1",
                                     "pitch": -55,
                                     "yaw": 153
                                   }
