@@ -7,6 +7,7 @@
         "type": "equirectangular",
         "hfov": 125.0,
         "autoRotate": -1,
+        "targetYaw": "sameAzimuth",
         "compass": true,
         "hotSpotDebug": true
     },
