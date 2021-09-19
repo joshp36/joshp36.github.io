@@ -573,21 +573,21 @@
                      "title": "mechanical",
                      "author": "",
                      "panorama": "images/mechanical.jpg",
-                     "northOffset": -119,
+                     "northOffset": -59.3,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "hallway",
                                     "sceneId": "hall3",
-                                    "pitch": -45,
-                                    "yaw": 153
+                                    "pitch": -15,
+                                    "yaw": 26
                                   },
                                   {
                                     "type": "scene",
                                     "text": "lab room",
                                     "sceneId": "lab",
-                                    "pitch": -65,
-                                    "yaw": 153
+                                    "pitch": -31,
+                                    "yaw": 16
                                   }
                                  ]
                     },
@@ -596,21 +596,28 @@
                      "title": "break room",
                      "author": "",
                      "panorama": "images/break.jpg",
-                     "northOffset": -119,
+                     "northOffset": 140.3,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "hallway",
                                     "sceneId": "hall3",
-                                    "pitch": -45,
-                                    "yaw": 153
+                                    "pitch": -33.5,
+                                    "yaw": 71
                                   },
                                   {
                                     "type": "scene",
                                     "text": "private office",
                                     "sceneId": "office",
-                                    "pitch": -65,
-                                    "yaw": 153
+                                    "pitch": -5.5,
+                                    "yaw": 160
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "lab room",
+                                    "sceneId": "lab",
+                                    "pitch": -4.9,
+                                    "yaw": 63.7
                                   }
                                  ]
                     }
