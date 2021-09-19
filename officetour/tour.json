@@ -1,7 +1,6 @@
 {
     "default": {
         "firstScene": "outside",
-        "author": "This is where the room's description would go",
         "sceneFadeDuration": 750,
         "autoLoad": true,
         "type": "equirectangular",
@@ -15,7 +14,7 @@
       
          "outside": {
                      "title": "entrance",
-                     "author": "",
+                     "author": "Click the arrows to navigate through the space!",
                      "panorama": "images/outside.jpg",
                      "northOffset": -177.5,
                      "yaw": -2.4,
@@ -33,7 +32,7 @@
 
          "lobby2": {
                      "title": "waiting room",
-                     "author": "",
+                     "author": "This is where descriptions of the spaces go.",
                      "panorama": "images/lobby2.jpg",
                      "northOffset": 47.9,
                      "hotSpots": [
