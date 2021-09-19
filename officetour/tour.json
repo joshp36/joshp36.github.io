@@ -36,13 +36,13 @@
                      "author": "",
                      "panorama": "images/lobby2.jpg",
                      "northOffset": 47.9,
-                     "yaw": -175,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "entrance",
                                     "sceneId": "outside",
                                     "pitch": -12,
+                                    "yaw": 295,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
