@@ -17,7 +17,7 @@
                      "title": "entrance",
                      "author": "",
                      "panorama": "images/outside.jpg",
-                     "northOffset": 0,
+                     "northOffset": -177.5,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -56,7 +56,7 @@
                      "title": "consultation area",
                      "author": "",
                      "panorama": "images/consultation.jpg",
-                     "northOffset": -39.8,
+                     "northOffset": 39.8,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -100,7 +100,7 @@
                      "title": "front desk area",
                      "author": "",
                      "panorama": "images/frontdesk.jpg",
-                     "northOffset": -128.3,
+                     "northOffset": 128.3,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -123,7 +123,7 @@
                      "title": "patient bathroom",
                      "author": "",
                      "panorama": "images/bathroom.jpg",
-                     "northOffset": 50.7,
+                     "northOffset": -50.7,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -146,7 +146,7 @@
                      "title": "conference room",
                      "author": "",
                      "panorama": "images/conference.jpg",
-                     "northOffset": -90,
+                     "northOffset": 90,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -169,7 +169,7 @@
                      "title": "main hallway",
                      "author": "",
                      "panorama": "images/hall1.jpg",
-                     "northOffset": 178.5,
+                     "northOffset": -178.5,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -220,7 +220,7 @@
                      "title": "hygiene",
                      "author": "",
                      "panorama": "images/hygiene1.jpg",
-                     "northOffset": 80.9,
+                     "northOffset": -80.9,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -250,7 +250,7 @@
                      "title": "hygiene",
                      "author": "",
                      "panorama": "images/hygiene2.jpg",
-                     "northOffset": 58.8,
+                     "northOffset": -58.8,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -280,7 +280,7 @@
                      "title": "operatory #1",
                      "author": "",
                      "panorama": "images/opp1a.jpg",
-                     "northOffset": 99.3,
+                     "northOffset": -99.3,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -310,7 +310,7 @@
                      "title": "operatory #1",
                      "author": "",
                      "panorama": "images/opp1b.jpg",
-                     "northOffset": -27.3,
+                     "northOffset": 27.3,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -340,7 +340,7 @@
                      "title": "operatory #2",
                      "author": "",
                      "panorama": "images/opp2a.jpg",
-                     "northOffset": 61.8,
+                     "northOffset": -61.8,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -370,7 +370,7 @@
                      "title": "operatory #2",
                      "author": "",
                      "panorama": "images/opp2b.jpg",
-                     "northOffset": 133.5,
+                     "northOffset": -133.5,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -400,7 +400,7 @@
                      "title": "sleep eval",
                      "author": "",
                      "panorama": "images/sleep.jpg",
-                     "northOffset": -129.9,
+                     "northOffset": 129.9,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -423,7 +423,7 @@
                      "title": "",
                      "author": "",
                      "panorama": "images/hall2.jpg",
-                     "northOffset": 114.4,
+                     "northOffset": -114.4,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -460,7 +460,7 @@
                      "title": "sterilization room",
                      "author": "",
                      "panorama": "images/sterilization.jpg",
-                     "northOffset": 26.3,
+                     "northOffset": -26.3,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -483,7 +483,7 @@
                      "title": "private office",
                      "author": "",
                      "panorama": "images/office.jpg",
-                     "northOffset": 148.8,
+                     "northOffset": -148.8,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -506,7 +506,7 @@
                      "title": "",
                      "author": "",
                      "panorama": "images/hall3.jpg",
-                     "northOffset": -50,
+                     "northOffset": 50,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -543,7 +543,7 @@
                      "title": "lab room",
                      "author": "",
                      "panorama": "images/lab.jpg",
-                     "northOffset": -21.8,
+                     "northOffset": 21.8,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -573,7 +573,7 @@
                      "title": "mechanical",
                      "author": "",
                      "panorama": "images/mechanical.jpg",
-                     "northOffset": -59.3,
+                     "northOffset": 59.3,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -596,7 +596,7 @@
                      "title": "break room",
                      "author": "",
                      "panorama": "images/break.jpg",
-                     "northOffset": 140.3,
+                     "northOffset": -140.3,
                      "hotSpots": [
                                   {
                                     "type": "scene",
