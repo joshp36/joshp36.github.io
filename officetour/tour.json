@@ -8,7 +8,7 @@
         "hfov": 125.0,
         "autoRotate": -1,
         "targetYaw": "sameAzimuth",
-        "compass": false,
+        "compass": true,
         "hotSpotDebug": true
     },
 
@@ -423,8 +423,14 @@
                                     "sceneId": "hall1",
                                     "pitch": -6,
                                     "yaw": -178
-                                  }
-                                 ]
+                                  },
+                                  {
+                                    "type": "info",
+                                    "text": "pharyngometer",
+                                    "pitch": -37,
+                                    "yaw": 20.4
+                                   },
+                               ]
                     },
 
          "hall2": {
