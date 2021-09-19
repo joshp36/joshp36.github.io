@@ -299,7 +299,7 @@
                                   },
                                   {
                                     "type": "scene",
-                                    "text": "sleep eval",
+                                    "text": "sleep disorder eval",
                                     "sceneId": "sleep",
                                     "pitch": -7,
                                     "yaw": 215
@@ -329,7 +329,7 @@
                                   },
                                   {
                                     "type": "scene",
-                                    "text": "sleep eval",
+                                    "text": "sleep disorder eval",
                                     "sceneId": "sleep",
                                     "pitch": -9,
                                     "yaw": 143
@@ -405,7 +405,7 @@
                     },
 
          "sleep": {
-                     "title": "sleep eval",
+                     "title": "sleep disorder eval",
                      "author": "",
                      "panorama": "images/sleep.jpg",
                      "northOffset": 129.9,
@@ -426,7 +426,7 @@
                                   },
                                   {
                                     "type": "info",
-                                    "text": "pharyngometer",
+                                    "text": "Sleep Group Solutions pharyngometer",
                                     "pitch": -37,
                                     "yaw": 20.4
                                    },
