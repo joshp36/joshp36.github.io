@@ -1,6 +1,6 @@
 {
     "default": {
-        "firstScene": "lobby1",
+        "firstScene": "lobby2",
         "author": "This is where the room's description would go",
         "sceneFadeDuration": 750,
         "autoLoad": true,
