@@ -250,6 +250,12 @@
                                     "sceneId": "hall1",
                                     "pitch": -9.3,
                                     "yaw": -169
+                                  },
+                                  {
+                                    "type": "info",
+                                    "text": "SoproLife intraoral camera",
+                                    "pitch": -27.5,
+                                    "yaw": 53.4
                                   }
                                  ]
                     },
