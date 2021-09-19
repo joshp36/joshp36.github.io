@@ -330,33 +330,38 @@
                                     "text": "",
                                     "sceneId": "opp1b",
                                     "pitch": -18,
-                                    "yaw": 127
+                                    "yaw": 127,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "sleep disorder eval",
                                     "sceneId": "sleep",
                                     "pitch": -7,
-                                    "yaw": 215
+                                    "yaw": 215,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "hallway",
                                     "sceneId": "hall1",
                                     "pitch": -9,
-                                    "yaw": 346.8
+                                    "yaw": 346.8,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "info",
                                     "text": "The Wand STA system",
                                     "pitch": -36,
-                                    "yaw": 53
+                                    "yaw": 53,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "info",
                                     "text": "SoproLife intraoral camera",
                                     "pitch": -25.6,
-                                    "yaw": 213
+                                    "yaw": 213,
+                                    "targetYaw": "sameAzimuth"
                                   }
                                  ]
                     },
@@ -372,27 +377,31 @@
                                     "text": "",
                                     "sceneId": "opp1a",
                                     "pitch": -22,
-                                    "yaw": 195
+                                    "yaw": 195,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "sleep disorder eval",
                                     "sceneId": "sleep",
                                     "pitch": -9,
-                                    "yaw": 143
+                                    "yaw": 143,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "hallway",
                                     "sceneId": "hall1",
                                     "pitch": -6,
-                                    "yaw": 211.4
+                                    "yaw": 211.4,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "info",
                                     "text": "The Wand STA system",
                                     "pitch": -19,
-                                    "yaw": 226
+                                    "yaw": 226,
+                                    "targetYaw": "sameAzimuth"
                                   }
                                  ]
                     },
@@ -408,28 +417,32 @@
                                     "text": "",
                                     "sceneId": "opp2b",
                                     "pitch": -25,
-                                    "yaw": -72
+                                    "yaw": -72,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "hygiene",
                                     "sceneId": "hygiene2",
                                     "pitch": -7,
-                                    "yaw": 0
+                                    "yaw": 0,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "hallway",
                                     "sceneId": "hall1",
                                     "pitch": -8,
-                                    "yaw": 124.5
+                                    "yaw": 124.5,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "back hallway",
                                     "sceneId": "hall2",
                                     "pitch": -7,
-                                    "yaw": -160
+                                    "yaw": -160,
+                                    "targetYaw": "sameAzimuth"
                                   }
                                  ]
                     },
@@ -445,21 +458,24 @@
                                     "text": "",
                                     "sceneId": "opp2a",
                                     "pitch": -22,
-                                    "yaw": 177
+                                    "yaw": 177,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "hygiene",
                                     "sceneId": "hygiene2",
                                     "pitch": -5.5,
-                                    "yaw": 122
+                                    "yaw": 122,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "hallway",
                                     "sceneId": "hall1",
                                     "pitch": -6,
-                                    "yaw": 188.6
+                                    "yaw": 188.6,
+                                    "targetYaw": "sameAzimuth"
                                   }
                                  ]
                     },
@@ -475,27 +491,31 @@
                                     "text": "operatory #1",
                                     "sceneId": "opp1b",
                                     "pitch": -8,
-                                    "yaw": -78
+                                    "yaw": -78,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "hallway",
                                     "sceneId": "hall1",
                                     "pitch": -6,
-                                    "yaw": -178
+                                    "yaw": -178,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "back hallway",
                                     "sceneId": "hall2",
                                     "pitch": -9,
-                                    "yaw": 93
+                                    "yaw": 93,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "info",
                                     "text": "Sleep Group Solutions pharyngometer",
                                     "pitch": -37,
-                                    "yaw": 20.4
+                                    "yaw": 20.4,
+                                    "targetYaw": "sameAzimuth"
                                   }
                                ]
                     },
@@ -511,28 +531,32 @@
                                     "text": "hallway",
                                     "sceneId": "hall1",
                                     "pitch": -13,
-                                    "yaw": 113
+                                    "yaw": 113,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "sterilization",
                                     "sceneId": "sterilization",
                                     "pitch": -9,
-                                    "yaw": 27
+                                    "yaw": 27,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "private office",
                                     "sceneId": "office",
                                     "pitch": -15,
-                                    "yaw": 212
+                                    "yaw": 212,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "",
                                     "sceneId": "hall3",
                                     "pitch": -21,
-                                    "yaw": 294
+                                    "yaw": 294,
+                                    "targetYaw": "sameAzimuth"
                                   }
                                  ]
                     },
@@ -548,14 +572,16 @@
                                     "text": "hallway",
                                     "sceneId": "hall2",
                                     "pitch": -7.6,
-                                    "yaw": 111.4
+                                    "yaw": 111.4,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "private office",
                                     "sceneId": "office",
                                     "pitch": -6.9,
-                                    "yaw": 125.9
+                                    "yaw": 125.9,
+                                    "targetYaw": "sameAzimuth"
                                   }
                                  ]
                     },
@@ -571,14 +597,16 @@
                                     "text": "hallway",
                                     "sceneId": "hall2",
                                     "pitch": -8.8,
-                                    "yaw": 78.4
+                                    "yaw": 78.4,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "break room",
                                     "sceneId": "break",
                                     "pitch": -10,
-                                    "yaw": -50.2
+                                    "yaw": -50.2,
+                                    "targetYaw": "sameAzimuth"
                                   }
                                  ]
                     },
@@ -594,28 +622,32 @@
                                     "text": "hallway",
                                     "sceneId": "hall1",
                                     "pitch": -9,
-                                    "yaw": -51.5
+                                    "yaw": -51.5,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "",
                                     "sceneId": "hall2",
                                     "pitch": -26,
-                                    "yaw": -53
+                                    "yaw": -53,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "lab room",
                                     "sceneId": "lab",
                                     "pitch": -8,
-                                    "yaw": -133
+                                    "yaw": -133,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "break room",
                                     "sceneId": "break",
                                     "pitch": -13.5,
-                                    "yaw": 57
+                                    "yaw": 57,
+                                    "targetYaw": "sameAzimuth"
                                   }
                                  ]
                     },
@@ -631,21 +663,24 @@
                                     "text": "hallway",
                                     "sceneId": "hall3",
                                     "pitch": -27,
-                                    "yaw": 75
+                                    "yaw": 75,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "mechanical",
                                     "sceneId": "mechanical",
                                     "pitch": -15,
-                                    "yaw": -109
+                                    "yaw": -109,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "break room",
                                     "sceneId": "break",
                                     "pitch": -6,
-                                    "yaw": 77
+                                    "yaw": 77,
+                                    "targetYaw": "sameAzimuth"
                                   }
                                  ]
                     },
@@ -661,14 +696,16 @@
                                     "text": "hallway",
                                     "sceneId": "hall3",
                                     "pitch": -15,
-                                    "yaw": 26
+                                    "yaw": 26,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "lab room",
                                     "sceneId": "lab",
                                     "pitch": -31,
-                                    "yaw": 16
+                                    "yaw": 16,
+                                    "targetYaw": "sameAzimuth"
                                   }
                                  ]
                     },
@@ -684,21 +721,24 @@
                                     "text": "hallway",
                                     "sceneId": "hall3",
                                     "pitch": -33.5,
-                                    "yaw": 71
+                                    "yaw": 71,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "private office",
                                     "sceneId": "office",
                                     "pitch": -5.5,
-                                    "yaw": 160
+                                    "yaw": 160,
+                                    "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "lab room",
                                     "sceneId": "lab",
                                     "pitch": -4.9,
-                                    "yaw": 63.7
+                                    "yaw": 63.7,
+                                    "targetYaw": "sameAzimuth"
                                   }
                                  ]
                     }
