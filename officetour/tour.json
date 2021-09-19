@@ -12,21 +12,23 @@
     },
 
     "scenes": {
-        "outside": {
-            "title": "entrance",
-            "author": "",
-            "panorama": "images/outside.jpg",
-            "pitch": -3,
-            "yaw": 117,
-            "hotSpots": [
-                {
-                    "pitch": -2.1,
-                    "yaw": 132.9,
-                    "type": "scene",
-                    "text": "enter lobby",
-                    "sceneId": "lobby1"
-                }
-        },
+      
+         "outside": {
+                     "title": "entrance",
+                     "author": "",
+                     "panorama": "images/outside.jpg",
+                     "pitch": -3,
+                     "yaw": 117,
+                     "hotSpots": [
+                                  {
+                                    "pitch": -2.1,
+                                    "yaw": 132.9,
+                                    "type": "scene",
+                                    "text": "enter lobby",
+                                    "sceneId": "lobby1"
+                                  }
+                                 ]
+                    },
 
         "lobby1": {
             "title": "waiting room",
@@ -42,7 +44,6 @@
                     "targetYaw": -23,
                     "targetPitch": 2
                 }
-            ]
             ]
         }
     }
