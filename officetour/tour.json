@@ -41,10 +41,86 @@
                      "hotSpots": [
                                   {
                                     "type": "scene",
-                                    "text": "enter lobby",
-                                    "sceneId": "lobby1",
+                                    "text": "entrance",
+                                    "sceneId": "outside",
                                     "pitch": -2.1,
                                     "yaw": 132.9
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "waiting room",
+                                    "sceneId": "lobby2",
+                                    "pitch": -10.1,
+                                    "yaw": 152.9
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "entryway",
+                                    "sceneId": "entry",
+                                    "pitch": -15.1,
+                                    "yaw": 153
+                                  }
+                                 ]
+                    },
+
+         "lobby2": {
+                     "title": "waiting room",
+                     "author": "",
+                     "panorama": "images/lobby2.jpg",
+                     "pitch": -30,
+                     "yaw": 57,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "entrance",
+                                    "sceneId": "outside",
+                                    "pitch": -2.1,
+                                    "yaw": 132.9
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "waiting room",
+                                    "sceneId": "lobby1",
+                                    "pitch": -10.1,
+                                    "yaw": 152.9
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "entryway",
+                                    "sceneId": "entry",
+                                    "pitch": -15.1,
+                                    "yaw": 153
+                                  }
+                                 ]
+                    },
+
+         "entry": {
+                     "title": "entryway",
+                     "author": "",
+                     "panorama": "images/lobby2.jpg",
+                     "pitch": -30,
+                     "yaw": 57,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "entrance",
+                                    "sceneId": "outside",
+                                    "pitch": -2.1,
+                                    "yaw": 132.9
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "waiting room",
+                                    "sceneId": "lobby1",
+                                    "pitch": -10.1,
+                                    "yaw": 152.9
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "entryway",
+                                    "sceneId": "entry",
+                                    "pitch": -15.1,
+                                    "yaw": 153
                                   }
                                  ]
                     }
