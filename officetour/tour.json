@@ -17,7 +17,7 @@
                      "title": "entrance",
                      "author": "",
                      "panorama": "images/outside.jpg",
-                     "northOffset": 177.5,
+                     "northOffset": 90,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -436,8 +436,8 @@
                                     "type": "scene",
                                     "text": "sterilization",
                                     "sceneId": "sterilization",
-                                    "pitch": -2.8,
-                                    "yaw": 29.4
+                                    "pitch": -9,
+                                    "yaw": 27
                                   },
                                   {
                                     "type": "scene",
