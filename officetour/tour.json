@@ -66,8 +66,7 @@
                      "title": "waiting room",
                      "author": "",
                      "panorama": "images/lobby2.jpg",
-                     "pitch": -30,
-                     "yaw": 57,
+
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -97,8 +96,7 @@
                      "title": "consultation area",
                      "author": "",
                      "panorama": "images/consultation.jpg",
-                     "pitch": -30,
-                     "yaw": 57,
+
                      "hotSpots": [
                                   {
                                     "type": "scene",
