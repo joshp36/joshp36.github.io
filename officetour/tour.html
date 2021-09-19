@@ -2,70 +2,24 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tour</title>
-    <link rel="stylesheet" href="/css/pannellum.css"/>
-    <script type="text/javascript" src="/js/pannellum.js"></script>
-    <style>
-    #panorama {
-        width: 600px;
-        height: 400px;
-    }
-    </style>
+    <title>Office Tour</title>
+    <link type="text/css" rel="stylesheet" href="/css/pannellum.css"/>
+    <link type="text/css" rel="stylesheet" href="/css/standalone.css"/>
+
+
 </head>
 <body>
 
-<div id="panorama"></div>
-<script>
-pannellum.viewer('panorama', {
-    "default": {
-        "firstScene": "lobby1",
-        //"author": "This is where the room's description would go",
-        "sceneFadeDuration": 750,
-        "autoLoad": true,
-        "type": "equirectangular",
-        "hfov": 105.0,
-        "autoRotate": -1
-        "compass": false,
-        "hotSpotDebug": false,
-    },
+<div id="container">
+  <noscript>
+    <div class="pnlm-info-box">
+      <p>Javascript is required to view this panorama.<br>(It could be worse; you could need a plugin.)</p>
+    </div>
+  </noscript>
+</div>
 
-    "scenes": {
-        "outside": {
-            "title": "entrance",
-            "author": "",
-            "panorama": "images/outside.jpg",
-            "pitch": -3,
-            "yaw": 117,
-            "hotSpots": [
-                {
-                    "pitch": -2.1,
-                    "yaw": 132.9,
-                    "type": "scene",
-                    "text": "enter lobby",
-                    "sceneId": "lobby1"
-                }
-        },
 
-        "lobby1": {
-            "title": "waiting room",
-            "author": "",
-            "panorama": "images/lobby1.jpg",
-            "hotSpots": [
-                {
-                    "type": "scene",
-                    "sceneId": "outside",
-                    "text": "entrance",
-                    "pitch": -0.6,
-                    "yaw": 37.1,
-                    "targetYaw": -23,
-                    "targetPitch": 2
-                }
-            ]
-            ]
-        }
-    }
-});
-</script>
+<script type="text/javascript" src="/js/pannellum.js"></script>
 
 </body>
 </html>
