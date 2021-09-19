@@ -103,23 +103,23 @@
                      "hotSpots": [
                                   {
                                     "type": "scene",
-                                    "text": "entrance",
-                                    "sceneId": "outside",
-                                    "pitch": -2.1,
-                                    "yaw": 132.9
-                                  },
-                                  {
-                                    "type": "scene",
                                     "text": "waiting room",
-                                    "sceneId": "lobby1",
+                                    "sceneId": "lobby2",
                                     "pitch": -10.1,
-                                    "yaw": 152.9
+                                    "yaw": 153
                                   },
                                   {
                                     "type": "scene",
-                                    "text": "entryway",
-                                    "sceneId": "entry",
+                                    "text": "front desk",
+                                    "sceneId": "front",
                                     "pitch": -15.1,
+                                    "yaw": 153
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "patient bathroom",
+                                    "sceneId": "bathroom",
+                                    "pitch": -25.1,
                                     "yaw": 153
                                   }
                                  ]
