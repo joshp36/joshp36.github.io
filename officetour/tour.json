@@ -97,7 +97,7 @@
          "entry": {
                      "title": "entryway",
                      "author": "",
-                     "panorama": "images/lobby2.jpg",
+                     "panorama": "images/entry.jpg",
                      "pitch": -30,
                      "yaw": 57,
                      "hotSpots": [
@@ -105,21 +105,66 @@
                                     "type": "scene",
                                     "text": "waiting room",
                                     "sceneId": "lobby2",
-                                    "pitch": -10.1,
+                                    "pitch": -10,
                                     "yaw": 153
                                   },
                                   {
                                     "type": "scene",
                                     "text": "front desk",
                                     "sceneId": "front",
-                                    "pitch": -15.1,
+                                    "pitch": -15,
                                     "yaw": 153
                                   },
                                   {
                                     "type": "scene",
                                     "text": "patient bathroom",
                                     "sceneId": "bathroom",
-                                    "pitch": -25.1,
+                                    "pitch": -25,
+                                    "yaw": 153
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "conference room",
+                                    "sceneId": "conference",
+                                    "pitch": -35,
+                                    "yaw": 153
+                                  }
+                                 ]
+                    },
+
+         "front": {
+                     "title": "front desk area",
+                     "author": "",
+                     "panorama": "images/front.jpg",
+                     "pitch": -30,
+                     "yaw": 57,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "waiting room",
+                                    "sceneId": "lobby2",
+                                    "pitch": -10,
+                                    "yaw": 153
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "front desk",
+                                    "sceneId": "front",
+                                    "pitch": -15,
+                                    "yaw": 153
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "patient bathroom",
+                                    "sceneId": "bathroom",
+                                    "pitch": -25,
+                                    "yaw": 153
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "conference room",
+                                    "sceneId": "conference",
+                                    "pitch": -35,
                                     "yaw": 153
                                   }
                                  ]
