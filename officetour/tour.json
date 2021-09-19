@@ -133,8 +133,7 @@
                      "title": "front desk area",
                      "author": "",
                      "panorama": "images/frontdesk.jpg",
-                     "pitch": -30,
-                     "yaw": 57,
+
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -151,7 +150,40 @@
                                     "yaw": 153
                                   }
                                  ]
+                    },
+
+         "bathroom": {
+                     "title": "patient bathroom",
+                     "author": "",
+                     "panorama": "images/bathroom.jpg",
+
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "consultation",
+                                    "sceneId": "consultation",
+                                    "pitch": -15,
+                                    "yaw": 153
+                                  }
+                                 ]
+                    },
+
+         "conference": {
+                     "title": "conference room",
+                     "author": "",
+                     "panorama": "images/conference.jpg",
+
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "consultation",
+                                    "sceneId": "consultation",
+                                    "pitch": -15,
+                                    "yaw": 153
+                                  }
+                                 ]
                     }
+
 
     }
 }
