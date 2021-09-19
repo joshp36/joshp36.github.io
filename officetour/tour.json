@@ -86,16 +86,16 @@
                                   },
                                   {
                                     "type": "scene",
-                                    "text": "entryway",
-                                    "sceneId": "entry",
+                                    "text": "consultation area",
+                                    "sceneId": "consultation",
                                     "pitch": -15.1,
                                     "yaw": 153
                                   }
                                  ]
                     },
 
-         "entry": {
-                     "title": "entryway",
+         "consultation": {
+                     "title": "consultation",
                      "author": "",
                      "panorama": "images/entry.jpg",
                      "pitch": -30,
@@ -141,14 +141,7 @@
                      "hotSpots": [
                                   {
                                     "type": "scene",
-                                    "text": "waiting room",
-                                    "sceneId": "lobby2",
-                                    "pitch": -10,
-                                    "yaw": 153
-                                  },
-                                  {
-                                    "type": "scene",
-                                    "text": "front desk",
+                                    "text": "entryway",
                                     "sceneId": "front",
                                     "pitch": -15,
                                     "yaw": 153
