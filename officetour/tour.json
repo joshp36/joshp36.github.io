@@ -43,7 +43,6 @@
                                     "text": "entrance",
                                     "sceneId": "outside",
                                     "pitch": -12,
-                                    "yaw": 295,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
