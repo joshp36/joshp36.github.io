@@ -95,9 +95,9 @@
                     },
 
          "consultation": {
-                     "title": "consultation",
+                     "title": "consultation area",
                      "author": "",
-                     "panorama": "images/entry.jpg",
+                     "panorama": "images/consultation.jpg",
                      "pitch": -30,
                      "yaw": 57,
                      "hotSpots": [
