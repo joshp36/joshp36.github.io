@@ -552,7 +552,7 @@
                                   },
                                   {
                                     "type": "scene",
-                                    "text": "",
+                                    "text": "break room & lab",
                                     "sceneId": "hall3",
                                     "pitch": -21,
                                     "yaw": 294,
@@ -627,7 +627,7 @@
                                   },
                                   {
                                     "type": "scene",
-                                    "text": "",
+                                    "text": "sterilization & office",
                                     "sceneId": "hall2",
                                     "pitch": -26,
                                     "yaw": -53,
