@@ -17,7 +17,7 @@
                      "title": "entrance",
                      "author": "",
                      "panorama": "images/outside.jpg",
-                     "northOffset": 90,
+                     "northOffset": 0,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -33,7 +33,7 @@
                      "title": "waiting room",
                      "author": "",
                      "panorama": "images/lobby2.jpg",
-                     "northOffset": -47.9,
+                     "northOffset": 47.9,
                      "hotSpots": [
                                   {
                                     "type": "scene",
