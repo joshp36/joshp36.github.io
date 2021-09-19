@@ -7,7 +7,7 @@
         "type": "equirectangular",
         "hfov": 125.0,
         "autoRotate": -1,
-        "compass": false,
+        "compass": true,
         "hotSpotDebug": true
     },
 
@@ -17,7 +17,7 @@
                      "title": "entrance",
                      "author": "",
                      "panorama": "images/outside.jpg",
-
+                     "northOffset": -119,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -25,8 +25,8 @@
                                     "sceneId": "lobby1",
                                     "targetPitch": 0,
                                     "targetYaw": 31,
-                                    "pitch": -1.5,
-                                    "yaw": -29
+                                    "pitch": -9,
+                                    "yaw": -11
                                   }
                                  ]
                     },
@@ -35,29 +35,28 @@
                      "title": "waiting room",
                      "author": "",
                      "panorama": "images/lobby1.jpg",
-                     "pitch": -30,
-                     "yaw": 57,
+                     "northOffset": -119,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "entrance",
                                     "sceneId": "outside",
-                                    "pitch": -2.1,
-                                    "yaw": 132.9
+                                    "pitch": -21,
+                                    "yaw": 33
                                   },
                                   {
                                     "type": "scene",
                                     "text": "",
                                     "sceneId": "lobby2",
-                                    "pitch": -10.1,
-                                    "yaw": 152.9
+                                    "pitch": -37,
+                                    "yaw": 136
                                   },
                                   {
                                     "type": "scene",
                                     "text": "consultation area",
                                     "sceneId": "consultation",
-                                    "pitch": -15.1,
-                                    "yaw": 153
+                                    "pitch": -8,
+                                    "yaw": 184
                                   }
                                  ]
                     },
@@ -66,28 +65,21 @@
                      "title": "waiting room",
                      "author": "",
                      "panorama": "images/lobby2.jpg",
-
+                     "northOffset": -119,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "entrance",
                                     "sceneId": "outside",
-                                    "pitch": -2.1,
-                                    "yaw": 132.9
-                                  },
-                                  {
-                                    "type": "scene",
-                                    "text": "",
-                                    "sceneId": "lobby1",
-                                    "pitch": -10.1,
-                                    "yaw": 152.9
+                                    "pitch": -12,
+                                    "yaw": 295
                                   },
                                   {
                                     "type": "scene",
                                     "text": "consultation area",
                                     "sceneId": "consultation",
-                                    "pitch": -15.1,
-                                    "yaw": 153
+                                    "pitch": -22,
+                                    "yaw": 162
                                   }
                                  ]
                     },
@@ -96,42 +88,42 @@
                      "title": "consultation area",
                      "author": "",
                      "panorama": "images/consultation.jpg",
-
+                     "northOffset": -119,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "waiting room",
                                     "sceneId": "lobby2",
-                                    "pitch": -10,
-                                    "yaw": 153
+                                    "pitch": -7,
+                                    "yaw": -1
                                   },
                                   {
                                     "type": "scene",
                                     "text": "front desk area",
                                     "sceneId": "frontdesk",
-                                    "pitch": -15,
-                                    "yaw": 153
+                                    "pitch": -21,
+                                    "yaw": -96
                                   },
                                   {
                                     "type": "scene",
                                     "text": "patient bathroom",
                                     "sceneId": "bathroom",
-                                    "pitch": -25,
-                                    "yaw": 153
+                                    "pitch": -9,
+                                    "yaw": -276
                                   },
                                   {
                                     "type": "scene",
                                     "text": "conference room",
                                     "sceneId": "conference",
-                                    "pitch": -35,
-                                    "yaw": 153
+                                    "pitch": -9,
+                                    "yaw": 159
                                   },
                                   {
                                     "type": "scene",
                                     "text": "hallway",
                                     "sceneId": "hall1",
-                                    "pitch": -45,
-                                    "yaw": 153
+                                    "pitch": -6,
+                                    "yaw": -213
                                   }
                                  ]
                     },
@@ -140,21 +132,21 @@
                      "title": "front desk area",
                      "author": "",
                      "panorama": "images/frontdesk.jpg",
-
+                     "northOffset": -119,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "consultation",
                                     "sceneId": "consultation",
-                                    "pitch": -15,
-                                    "yaw": 153
+                                    "pitch": -11,
+                                    "yaw": 11
                                   },
                                   {
                                     "type": "scene",
                                     "text": "patient bathroom",
                                     "sceneId": "bathroom",
-                                    "pitch": -25,
-                                    "yaw": 153
+                                    "pitch": -3.5,
+                                    "yaw": -2
                                   }
                                  ]
                     },
@@ -163,14 +155,21 @@
                      "title": "patient bathroom",
                      "author": "",
                      "panorama": "images/bathroom.jpg",
-
+                     "northOffset": -119,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "consultation",
                                     "sceneId": "consultation",
-                                    "pitch": -15,
-                                    "yaw": 153
+                                    "pitch": -11,
+                                    "yaw": -29
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "conference room",
+                                    "sceneId": "conference",
+                                    "pitch": -8,
+                                    "yaw": -44
                                   }
                                  ]
                     },
@@ -179,14 +178,21 @@
                      "title": "conference room",
                      "author": "",
                      "panorama": "images/conference.jpg",
-
+                     "northOffset": -119,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "consultation",
                                     "sceneId": "consultation",
                                     "pitch": -15,
-                                    "yaw": 153
+                                    "yaw": -8
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "patient bathroom",
+                                    "sceneId": "bathroom",
+                                    "pitch": -5,
+                                    "yaw": 3
                                   }
                                  ]
                     },
@@ -195,49 +201,49 @@
                      "title": "conference room",
                      "author": "",
                      "panorama": "images/hall1.jpg",
-
+                     "northOffset": -119,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "consultation",
                                     "sceneId": "consultation",
-                                    "pitch": -15,
-                                    "yaw": 153
+                                    "pitch": -8,
+                                    "yaw": 180
                                   },
                                   {
                                     "type": "scene",
                                     "text": "hygiene",
                                     "sceneId": "hygiene1",
-                                    "pitch": -25,
-                                    "yaw": 153
+                                    "pitch": -9,
+                                    "yaw": 118
                                   },
                                   {
                                     "type": "scene",
                                     "text": "operatory #1",
                                     "sceneId": "opp1a",
-                                    "pitch": -35,
-                                    "yaw": 153
+                                    "pitch": -13,
+                                    "yaw": 241
                                   },
                                   {
                                     "type": "scene",
                                     "text": "operatory #2",
                                     "sceneId": "opp2a",
-                                    "pitch": -45,
-                                    "yaw": 153
+                                    "pitch": -11,
+                                    "yaw": 63
                                   },
                                   {
                                     "type": "scene",
                                     "text": "sleep eval",
                                     "sceneId": "sleep",
-                                    "pitch": -55,
-                                    "yaw": 153
+                                    "pitch": -12,
+                                    "yaw": -63
                                   },
                                   {
                                     "type": "scene",
                                     "text": "",
                                     "sceneId": "hall2",
-                                    "pitch": -65,
-                                    "yaw": 153
+                                    "pitch": -15.7,
+                                    "yaw": -1
                                   }
                                  ]
                     },
@@ -246,28 +252,28 @@
                      "title": "hygiene",
                      "author": "",
                      "panorama": "images/hygiene1.jpg",
-
+                     "northOffset": -119,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "",
                                     "sceneId": "hygiene2",
-                                    "pitch": -25,
-                                    "yaw": 153
+                                    "pitch": -13,
+                                    "yaw": 32
                                   },
                                   {
                                     "type": "scene",
                                     "text": "operatory #2",
                                     "sceneId": "opp2a",
-                                    "pitch": -45,
-                                    "yaw": 153
+                                    "pitch": -8,
+                                    "yaw": -33
                                   },
                                   {
                                     "type": "scene",
                                     "text": "hallway",
                                     "sceneId": "hall1",
-                                    "pitch": -55,
-                                    "yaw": 153
+                                    "pitch": -9.3,
+                                    "yaw": -169
                                   }
                                  ]
                     },
@@ -276,28 +282,28 @@
                      "title": "hygiene",
                      "author": "",
                      "panorama": "images/hygiene2.jpg",
-
+                     "northOffset": -119,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "",
                                     "sceneId": "hygiene1",
-                                    "pitch": -25,
-                                    "yaw": 153
+                                    "pitch": -24,
+                                    "yaw": 205
                                   },
                                   {
                                     "type": "scene",
                                     "text": "operatory #2",
                                     "sceneId": "opp2a",
-                                    "pitch": -45,
-                                    "yaw": 153
+                                    "pitch": -10,
+                                    "yaw": 251
                                   },
                                   {
                                     "type": "scene",
                                     "text": "hallway",
                                     "sceneId": "hall1",
-                                    "pitch": -55,
-                                    "yaw": 153
+                                    "pitch": -5.2,
+                                    "yaw": 179
                                   }
                                  ]
                     },
@@ -306,28 +312,28 @@
                      "title": "operatory #1",
                      "author": "",
                      "panorama": "images/opp1a.jpg",
-
+                     "northOffset": -119,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "",
                                     "sceneId": "opp1b",
-                                    "pitch": -25,
-                                    "yaw": 153
+                                    "pitch": -18,
+                                    "yaw": 127
                                   },
                                   {
                                     "type": "scene",
                                     "text": "sleep eval",
                                     "sceneId": "sleep",
-                                    "pitch": -45,
-                                    "yaw": 153
+                                    "pitch": -7,
+                                    "yaw": 215
                                   },
                                   {
                                     "type": "scene",
                                     "text": "hallway",
                                     "sceneId": "hall1",
-                                    "pitch": -55,
-                                    "yaw": 153
+                                    "pitch": -9,
+                                    "yaw": 346.8
                                   }
                                  ]
                     },
@@ -336,28 +342,28 @@
                      "title": "operatory #1",
                      "author": "",
                      "panorama": "images/opp1b.jpg",
-
+                     "northOffset": -119,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "",
                                     "sceneId": "opp1a",
-                                    "pitch": -25,
-                                    "yaw": 153
+                                    "pitch": -22,
+                                    "yaw": 195
                                   },
                                   {
                                     "type": "scene",
                                     "text": "sleep eval",
                                     "sceneId": "sleep",
-                                    "pitch": -45,
-                                    "yaw": 153
+                                    "pitch": -9,
+                                    "yaw": 143
                                   },
                                   {
                                     "type": "scene",
                                     "text": "hallway",
                                     "sceneId": "hall1",
-                                    "pitch": -55,
-                                    "yaw": 153
+                                    "pitch": -6,
+                                    "yaw": 211.4
                                   }
                                  ]
                     },
@@ -366,28 +372,28 @@
                      "title": "operatory #2",
                      "author": "",
                      "panorama": "images/opp2a.jpg",
-
+                     "northOffset": -119,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "",
                                     "sceneId": "opp2b",
                                     "pitch": -25,
-                                    "yaw": 153
+                                    "yaw": -72
                                   },
                                   {
                                     "type": "scene",
                                     "text": "hygiene",
                                     "sceneId": "hygiene2",
-                                    "pitch": -45,
-                                    "yaw": 153
+                                    "pitch": -7,
+                                    "yaw": 0
                                   },
                                   {
                                     "type": "scene",
                                     "text": "hallway",
                                     "sceneId": "hall1",
-                                    "pitch": -55,
-                                    "yaw": 153
+                                    "pitch": -8,
+                                    "yaw": 124.5
                                   }
                                  ]
                     },
@@ -396,28 +402,28 @@
                      "title": "operatory #2",
                      "author": "",
                      "panorama": "images/opp2b.jpg",
-
+                     "northOffset": -119,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "",
                                     "sceneId": "opp2a",
-                                    "pitch": -25,
-                                    "yaw": 153
+                                    "pitch": -22,
+                                    "yaw": 177
                                   },
                                   {
                                     "type": "scene",
                                     "text": "hygiene",
                                     "sceneId": "hygiene2",
-                                    "pitch": -45,
-                                    "yaw": 153
+                                    "pitch": -5.5,
+                                    "yaw": 122
                                   },
                                   {
                                     "type": "scene",
                                     "text": "hallway",
                                     "sceneId": "hall1",
-                                    "pitch": -55,
-                                    "yaw": 153
+                                    "pitch": -6,
+                                    "yaw": 188.6
                                   }
                                  ]
                     },
@@ -426,21 +432,21 @@
                      "title": "sleep eval",
                      "author": "",
                      "panorama": "images/sleep.jpg",
-
+                     "northOffset": -119,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "operatory #1",
                                     "sceneId": "opp1b",
-                                    "pitch": -45,
-                                    "yaw": 153
+                                    "pitch": -8,
+                                    "yaw": -78
                                   },
                                   {
                                     "type": "scene",
                                     "text": "hallway",
                                     "sceneId": "hall1",
-                                    "pitch": -55,
-                                    "yaw": 153
+                                    "pitch": -6,
+                                    "yaw": -178
                                   }
                                  ]
                     },
@@ -449,7 +455,90 @@
                      "title": "",
                      "author": "",
                      "panorama": "images/hall2.jpg",
+                     "northOffset": -119,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "hallway",
+                                    "sceneId": "hall1",
+                                    "pitch": -13,
+                                    "yaw": 113
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "sterilization",
+                                    "sceneId": "sterilization",
+                                    "pitch": -2.8,
+                                    "yaw": 29.4
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "private office",
+                                    "sceneId": "office",
+                                    "pitch": -15,
+                                    "yaw": 212
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "",
+                                    "sceneId": "hall3",
+                                    "pitch": -21,
+                                    "yaw": 294
+                                  }
+                                 ]
+                    },
 
+         "sterilization": {
+                     "title": "sterilization room",
+                     "author": "",
+                     "panorama": "images/sterilization.jpg",
+                     "northOffset": -119,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "hallway",
+                                    "sceneId": "hall2",
+                                    "pitch": -7.6,
+                                    "yaw": 111.4
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "private office",
+                                    "sceneId": "office",
+                                    "pitch": -6.9,
+                                    "yaw": 125.9
+                                  }
+                                 ]
+                    },
+
+         "office": {
+                     "title": "private office",
+                     "author": "",
+                     "panorama": "images/office.jpg",
+                     "northOffset": -119,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "hallway",
+                                    "sceneId": "hall2",
+                                    "pitch": -8.8,
+                                    "yaw": 78.4
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "break room",
+                                    "sceneId": "break",
+                                    "pitch": -10,
+                                    "yaw": -50.2
+                                  }
+                                 ]
+                    },
+
+         "hall3": {
+                     "title": "",
+                     "author": "",
+                     "panorama": "images/hall3.jpg",
+                     "northOffset": -119,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -460,8 +549,84 @@
                                   },
                                   {
                                     "type": "scene",
-                                    "text": "sterilization",
-                                    "sceneId": "sterilization",
+                                    "text": "",
+                                    "sceneId": "hall2",
+                                    "pitch": -45,
+                                    "yaw": 153
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "lab room",
+                                    "sceneId": "lab",
+                                    "pitch": -55,
+                                    "yaw": 153
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "break room",
+                                    "sceneId": "break",
+                                    "pitch": -65,
+                                    "yaw": 153
+                                  }
+                                 ]
+                    },
+
+         "lab": {
+                     "title": "lab room",
+                     "author": "",
+                     "panorama": "images/lab.jpg",
+                     "northOffset": -119,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "hallway",
+                                    "sceneId": "hall3",
+                                    "pitch": -45,
+                                    "yaw": 153
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "mechanical",
+                                    "sceneId": "mechanical",
+                                    "pitch": -65,
+                                    "yaw": 153
+                                  }
+                                 ]
+                    },
+
+         "mechanical": {
+                     "title": "mechanical",
+                     "author": "",
+                     "panorama": "images/mechanical.jpg",
+                     "northOffset": -119,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "hallway",
+                                    "sceneId": "hall3",
+                                    "pitch": -45,
+                                    "yaw": 153
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "lab room",
+                                    "sceneId": "lab",
+                                    "pitch": -65,
+                                    "yaw": 153
+                                  }
+                                 ]
+                    },
+
+         "break": {
+                     "title": "break room",
+                     "author": "",
+                     "panorama": "images/break.jpg",
+                     "northOffset": -119,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "hallway",
+                                    "sceneId": "hall3",
                                     "pitch": -45,
                                     "yaw": 153
                                   },
@@ -469,43 +634,12 @@
                                     "type": "scene",
                                     "text": "private office",
                                     "sceneId": "office",
-                                    "pitch": -55,
-                                    "yaw": 153
-                                  }
-                                 ]
-                    },
-
-         "sterilization": {
-                     "title": "sterilization room",
-                     "author": "",
-                     "panorama": "images/sterilization.jpg",
-
-                     "hotSpots": [
-                                  {
-                                    "type": "scene",
-                                    "text": "hallway",
-                                    "sceneId": "hall2",
-                                    "pitch": -35,
-                                    "yaw": 153
-                                  }
-                                 ]
-                    },
-
-         "office": {
-                     "title": "private office",
-                     "author": "",
-                     "panorama": "images/office.jpg",
-
-                     "hotSpots": [
-                                  {
-                                    "type": "scene",
-                                    "text": "hallway",
-                                    "sceneId": "hall2",
-                                    "pitch": -35,
+                                    "pitch": -65,
                                     "yaw": 153
                                   }
                                  ]
                     }
+
 
 
 
