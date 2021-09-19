@@ -125,6 +125,13 @@
                                     "sceneId": "conference",
                                     "pitch": -35,
                                     "yaw": 153
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "hallway",
+                                    "sceneId": "hall1",
+                                    "pitch": -45,
+                                    "yaw": 153
                                   }
                                  ]
                     },
