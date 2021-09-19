@@ -462,7 +462,7 @@
                      "title": "sterilization room",
                      "author": "",
                      "panorama": "images/sterilization.jpg",
-                     "northOffset": -119,
+                     "northOffset": 26.3,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -485,7 +485,7 @@
                      "title": "private office",
                      "author": "",
                      "panorama": "images/office.jpg",
-                     "northOffset": -119,
+                     "northOffset": 148.8,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -508,7 +508,7 @@
                      "title": "",
                      "author": "",
                      "panorama": "images/hall3.jpg",
-                     "northOffset": -119,
+                     "northOffset": -50,
                      "hotSpots": [
                                   {
                                     "type": "scene",
