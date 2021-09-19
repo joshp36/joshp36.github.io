@@ -203,6 +203,20 @@
                                     "sceneId": "consultation",
                                     "pitch": -15,
                                     "yaw": 153
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "hygiene",
+                                    "sceneId": "hygiene1",
+                                    "pitch": -25,
+                                    "yaw": 153
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "operatory #1",
+                                    "sceneId": "opp1a",
+                                    "pitch": -35,
+                                    "yaw": 153
                                   }
                                  ]
                     }
