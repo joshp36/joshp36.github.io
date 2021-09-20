@@ -7,7 +7,7 @@
         "hfov": 108.0,
         "autoRotate": -1,
         "compass": true,
-        "hotSpotDebug": false
+        "hotSpotDebug": true
     },
 
     "scenes": {
@@ -31,8 +31,8 @@
                     },
 
          "lobby2": {
-                     "title": "waiting room",
-                     "author": "This is where descriptions of the spaces go.",
+                     "title": "reception area",
+                     "author": "",
                      "panorama": "images/lobby2.jpg",
                      "northOffset": 47.9,
                      "hotSpots": [
@@ -46,7 +46,7 @@
                                   },
                                   {
                                     "type": "scene",
-                                    "text": "consultation area",
+                                    "text": "checkout desk",
                                     "sceneId": "consultation",
                                     "pitch": -22,
                                     "yaw": 162,
@@ -56,14 +56,14 @@
                     },
 
          "consultation": {
-                     "title": "consultation area",
+                     "title": "checkout desk",
                      "author": "",
                      "panorama": "images/consultation.jpg",
                      "northOffset": 39.8,
                      "hotSpots": [
                                   {
                                     "type": "scene",
-                                    "text": "waiting room",
+                                    "text": "reception area",
                                     "sceneId": "lobby2",
                                     "pitch": -24,
                                     "yaw": -3.5,
@@ -71,7 +71,7 @@
                                   },
                                   {
                                     "type": "scene",
-                                    "text": "front desk area",
+                                    "text": "business office",
                                     "sceneId": "frontdesk",
                                     "pitch": -21,
                                     "yaw": -96,
@@ -87,7 +87,7 @@
                                   },
                                   {
                                     "type": "scene",
-                                    "text": "conference room",
+                                    "text": "consultation room",
                                     "sceneId": "conference",
                                     "pitch": -9,
                                     "yaw": -159,
@@ -105,14 +105,14 @@
                     },
 
          "frontdesk": {
-                     "title": "front desk area",
+                     "title": "business office",
                      "author": "",
                      "panorama": "images/frontdesk.jpg",
                      "northOffset": 128.3,
                      "hotSpots": [
                                   {
                                     "type": "scene",
-                                    "text": "consultation",
+                                    "text": "checkout desk",
                                     "sceneId": "consultation",
                                     "pitch": -11,
                                     "yaw": 11,
@@ -137,7 +137,7 @@
                      "hotSpots": [
                                   {
                                     "type": "scene",
-                                    "text": "consultation",
+                                    "text": "checkout desk",
                                     "sceneId": "consultation",
                                     "pitch": -11,
                                     "yaw": -29,
@@ -145,7 +145,7 @@
                                   },
                                   {
                                     "type": "scene",
-                                    "text": "conference room",
+                                    "text": "consultation room",
                                     "sceneId": "conference",
                                     "pitch": -8,
                                     "yaw": -44,
@@ -155,14 +155,14 @@
                     },
 
          "conference": {
-                     "title": "conference room",
+                     "title": "consultation room",
                      "author": "",
                      "panorama": "images/conference.jpg",
                      "northOffset": 90,
                      "hotSpots": [
                                   {
                                     "type": "scene",
-                                    "text": "consultation",
+                                    "text": "checkout desk",
                                     "sceneId": "consultation",
                                     "pitch": -28,
                                     "yaw": 0.5,
@@ -195,7 +195,7 @@
                      "hotSpots": [
                                   {
                                     "type": "scene",
-                                    "text": "consultation",
+                                    "text": "checkout desk",
                                     "sceneId": "consultation",
                                     "pitch": -8,
                                     "yaw": 180,
@@ -227,7 +227,7 @@
                                   },
                                   {
                                     "type": "scene",
-                                    "text": "sleep eval",
+                                    "text": "sleep disorder op",
                                     "sceneId": "sleep",
                                     "pitch": -12,
                                     "yaw": -63,
@@ -333,7 +333,7 @@
                                   },
                                   {
                                     "type": "scene",
-                                    "text": "sleep disorder eval",
+                                    "text": "sleep disorder op",
                                     "sceneId": "sleep",
                                     "pitch": -7,
                                     "yaw": 215,
@@ -380,7 +380,7 @@
                                   },
                                   {
                                     "type": "scene",
-                                    "text": "sleep disorder eval",
+                                    "text": "sleep disorder op",
                                     "sceneId": "sleep",
                                     "pitch": -9,
                                     "yaw": 143,
@@ -479,7 +479,7 @@
                     },
 
          "sleep": {
-                     "title": "sleep disorder eval",
+                     "title": "sleep disorder op",
                      "author": "",
                      "panorama": "images/sleep.jpg",
                      "northOffset": 129.9,
@@ -633,7 +633,7 @@
                                   },
                                   {
                                     "type": "scene",
-                                    "text": "lab room",
+                                    "text": "lab",
                                     "sceneId": "lab",
                                     "pitch": -8,
                                     "yaw": -133,
@@ -651,7 +651,7 @@
                     },
 
          "lab": {
-                     "title": "lab room",
+                     "title": "lab",
                      "author": "",
                      "panorama": "images/lab.jpg",
                      "northOffset": 21.8,
@@ -699,7 +699,7 @@
                                   },
                                   {
                                     "type": "scene",
-                                    "text": "lab room",
+                                    "text": "lab",
                                     "sceneId": "lab",
                                     "pitch": -31,
                                     "yaw": 16,
@@ -732,7 +732,7 @@
                                   },
                                   {
                                     "type": "scene",
-                                    "text": "lab room",
+                                    "text": "lab",
                                     "sceneId": "lab",
                                     "pitch": -4.9,
                                     "yaw": 63.7,
