@@ -418,7 +418,7 @@
                                   },
                                   {
                                     "type": "info",
-                                    "text": "capsule warmer",
+                                    "text": "carpule warmer",
                                     "pitch": -26.4,
                                     "yaw": -330,
                                     "targetYaw": "sameAzimuth"
@@ -520,7 +520,7 @@
                                   },
                                   {
                                     "type": "info",
-                                    "text": "capsule warmer",
+                                    "text": "carpule warmer",
                                     "pitch": -28,
                                     "yaw": 148,
                                     "targetYaw": "sameAzimuth"
