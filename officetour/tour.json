@@ -97,7 +97,7 @@
                                   {
                                     "type": "scene",
                                     "text": "hygiene",
-                                    "sceneId": "hygiene",
+                                    "sceneId": "hygiene1",
                                     "pitch": -9.3,
                                     "yaw": 170,
                                     "targetYaw": "sameAzimuth"
@@ -309,7 +309,7 @@
                                     "type": "info",
                                     "text": "Porter nitrous system",
                                     "pitch": -54,
-                                    "yaw": -114,
+                                    "yaw": 114,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
@@ -389,6 +389,14 @@
                                     "type": "scene",
                                     "text": "op #2",
                                     "sceneId": "opp2a",
+                                    "pitch": -8,
+                                    "yaw": 341,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "hygiene",
+                                    "sceneId": "hygiene1",
                                     "pitch": -8,
                                     "yaw": 341,
                                     "targetYaw": "sameAzimuth"
