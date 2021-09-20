@@ -1,6 +1,6 @@
 {
     "default": {
-        "firstScene": "outside",
+        "firstScene": "lobby2",
         "sceneFadeDuration": 750,
         "autoLoad": true,
         "type": "equirectangular",
@@ -36,14 +36,6 @@
                      "panorama": "images/lobby2.jpg",
                      "northOffset": 47.9,
                      "hotSpots": [
-                                  {
-                                    "type": "scene",
-                                    "text": "entrance",
-                                    "sceneId": "outside",
-                                    "pitch": -12,
-                                    "yaw": 295,
-                                    "targetYaw": "sameAzimuth"
-                                  },
                                   {
                                     "type": "scene",
                                     "text": "checkout desk",
@@ -99,6 +91,14 @@
                                     "sceneId": "hall1",
                                     "pitch": -17.6,
                                     "yaw": -214,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "hygiene",
+                                    "sceneId": "hygiene",
+                                    "pitch": -9.3,
+                                    "yaw": 170,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
