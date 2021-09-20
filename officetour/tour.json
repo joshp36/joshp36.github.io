@@ -841,8 +841,8 @@
                                   {
                                     "type": "info",
                                     "text": "polishing lathe",
-                                    "pitch": -1.6,
-                                    "yaw": 92,
+                                    "pitch": -16.7,
+                                    "yaw": -1.6,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
