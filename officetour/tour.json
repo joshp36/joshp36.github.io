@@ -310,6 +310,13 @@
                                     "pitch": -54,
                                     "yaw": -114,
                                     "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "info",
+                                    "text": "DCI Edge light",
+                                    "pitch": -1.3,
+                                    "yaw": 10.6,
+                                    "targetYaw": "sameAzimuth"
                                   }
                                  ]
                     },
@@ -403,8 +410,8 @@
                                   {
                                     "type": "info",
                                     "text": "SoproLife intraoral camera",
-                                    "pitch": -25.6,
-                                    "yaw": 213,
+                                    "pitch": -26.4,
+                                    "yaw": 213.5,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
@@ -774,6 +781,20 @@
                                     "pitch": -13.5,
                                     "yaw": 57,
                                     "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "info",
+                                    "text": "nitrous/oxygen tank closet",
+                                    "pitch": -14,
+                                    "yaw": -197,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "info",
+                                    "text": "supply closet with washer/dryer connections",
+                                    "pitch": -16,
+                                    "yaw": -6.8,
+                                    "targetYaw": "sameAzimuth"
                                   }
                                  ]
                     },
@@ -807,6 +828,27 @@
                                     "pitch": -6,
                                     "yaw": 77,
                                     "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "info",
+                                    "text": "model grinder",
+                                    "pitch": -14.8,
+                                    "yaw": -48.7,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "info",
+                                    "text": "polishing lathe",
+                                    "pitch": -1.6,
+                                    "yaw": 92,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "info",
+                                    "text": "porcelain oven",
+                                    "pitch": -15.2,
+                                    "yaw": 163,
+                                    "targetYaw": "sameAzimuth"
                                   }
                                  ]
                     },
@@ -831,6 +873,21 @@
                                     "sceneId": "lab",
                                     "pitch": -31,
                                     "yaw": 16,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "break room",
+                                    "sceneId": "break",
+                                    "pitch": -3.5,
+                                    "yaw": 29.6,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "info",
+                                    "text": "amalgam seperator",
+                                    "pitch": -73.4,
+                                    "yaw": 224,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
