@@ -157,7 +157,7 @@
          "conference": {
                      "title": "consultation room",
                      "author": "",
-                     "panorama": "images/conference.jpg",
+                     "panorama": "images/conferenceB.jpg",
                      "northOffset": 90,
                      "hotSpots": [
                                   {
@@ -357,7 +357,7 @@
          "opp1a": {
                      "title": "operatory #1",
                      "author": "",
-                     "panorama": "images/opp1a.jpg",
+                     "panorama": "images/opp1aB.jpg",
                      "northOffset": 260.7,
                      "hotSpots": [
                                   {
@@ -441,7 +441,7 @@
          "opp1b": {
                      "title": "operatory #1",
                      "author": "",
-                     "panorama": "images/opp1b.jpg",
+                     "panorama": "images/opp1bB.jpg",
                      "northOffset": 27.3,
                      "hotSpots": [
                                   {
@@ -885,7 +885,7 @@
                                   },
                                   {
                                     "type": "info",
-                                    "text": "amalgam seperator",
+                                    "text": "amalgam separator",
                                     "pitch": -73.4,
                                     "yaw": 224,
                                     "targetYaw": "sameAzimuth"
