@@ -386,14 +386,6 @@
                                   },
                                   {
                                     "type": "scene",
-                                    "text": "hygiene",
-                                    "sceneId": "hygiene",
-                                    "pitch": -7.7,
-                                    "yaw": 356,
-                                    "targetYaw": "sameAzimuth"
-                                  },
-                                  {
-                                    "type": "scene",
                                     "text": "op #2",
                                     "sceneId": "opp2a",
                                     "pitch": -8,
