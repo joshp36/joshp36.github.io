@@ -33,7 +33,7 @@
          "lobby2": {
                      "title": "reception area",
                      "author": "",
-                     "panorama": "images/lobby2.jpg",
+                     "panorama": "images/lobby2B.jpg",
                      "northOffset": 47.9,
                      "hotSpots": [
                                   {
@@ -358,7 +358,7 @@
                      "title": "operatory #1",
                      "author": "",
                      "panorama": "images/opp1a.jpg",
-                     "northOffset": -99.3,
+                     "northOffset": 260.7,
                      "hotSpots": [
                                   {
                                     "type": "scene",
