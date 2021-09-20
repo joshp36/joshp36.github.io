@@ -97,8 +97,8 @@
                                     "type": "scene",
                                     "text": "hallway",
                                     "sceneId": "hall1",
-                                    "pitch": -6,
-                                    "yaw": -213,
+                                    "pitch": -17.6,
+                                    "yaw": -214,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -270,8 +270,24 @@
                                     "type": "scene",
                                     "text": "hallway",
                                     "sceneId": "hall1",
-                                    "pitch": -9.3,
-                                    "yaw": -169,
+                                    "pitch": -35,
+                                    "yaw": -165,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "operatory #1",
+                                    "sceneId": "opp1a",
+                                    "pitch": -8.4,
+                                    "yaw": -179,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "sleep disorder op",
+                                    "sceneId": "sleep",
+                                    "pitch": -8,
+                                    "yaw": -163,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
@@ -279,6 +295,20 @@
                                     "text": "SoproLife intraoral camera",
                                     "pitch": -27.5,
                                     "yaw": 53.4,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "info",
+                                    "text": "pass-through x-ray unit",
+                                    "pitch": -3.4,
+                                    "yaw": -57,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "info",
+                                    "text": "Porter nitrous system",
+                                    "pitch": -54,
+                                    "yaw": -114,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -343,8 +373,24 @@
                                     "type": "scene",
                                     "text": "hallway",
                                     "sceneId": "hall1",
-                                    "pitch": -9,
-                                    "yaw": 346.8,
+                                    "pitch": -35,
+                                    "yaw": 344,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "hygiene",
+                                    "sceneId": "hygiene",
+                                    "pitch": -7.7,
+                                    "yaw": 356,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "op #2",
+                                    "sceneId": "opp2a",
+                                    "pitch": -8,
+                                    "yaw": 341,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
@@ -359,6 +405,27 @@
                                     "text": "SoproLife intraoral camera",
                                     "pitch": -25.6,
                                     "yaw": 213,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "info",
+                                    "text": "capsule warmer",
+                                    "pitch": -26.4,
+                                    "yaw": -330,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "info",
+                                    "text": "Porter nitrous system",
+                                    "pitch": -54.4,
+                                    "yaw": -299,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "info",
+                                    "text": "pass-through x-ray unit",
+                                    "pitch": -3.5,
+                                    "yaw": -117,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -440,6 +507,27 @@
                                     "sceneId": "hall2",
                                     "pitch": -7,
                                     "yaw": -160,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "info",
+                                    "text": "capsule warmer",
+                                    "pitch": -28,
+                                    "yaw": 148,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "info",
+                                    "text": "The Wand STA system",
+                                    "pitch": -45.6,
+                                    "yaw": 163,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "info",
+                                    "text": "Porter nitrous system",
+                                    "pitch": -59,
+                                    "yaw": -193,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -554,6 +642,46 @@
                                     "sceneId": "hall3",
                                     "pitch": -21,
                                     "yaw": 294,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "checkout desk",
+                                    "sceneId": "consultation",
+                                    "pitch": -3,
+                                    "yaw": 114,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "hygiene",
+                                    "sceneId": "hygiene",
+                                    "pitch": -5,
+                                    "yaw": 107,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "op #1",
+                                    "sceneId": "opp1a",
+                                    "pitch": -5,
+                                    "yaw": 120,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "op #2",
+                                    "sceneId": "opp2b",
+                                    "pitch": -9,
+                                    "yaw": 96,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "sleep disorder op",
+                                    "sceneId": "sleep",
+                                    "pitch": -9,
+                                    "yaw": 130,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
