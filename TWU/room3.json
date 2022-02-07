@@ -17,7 +17,7 @@
                      "northOffset": 0,
                      "yaw": 0,
                       "multiRes": {
-                                    "basePath": "panos/room2a",
+                                    "basePath": "panos/room3a",
                                     "path": "/%l/%s%y_%x",
                                     "fallbackPath": "/fallback/%s",
                                     "extension": "jpg",
@@ -43,7 +43,7 @@
                      "northOffset": 0,
                      "yaw": 0,
                       "multiRes": {
-                                    "basePath": "panos/room2b",
+                                    "basePath": "panos/room3b",
                                     "path": "/%l/%s%y_%x",
                                     "fallbackPath": "/fallback/%s",
                                     "extension": "jpg",
