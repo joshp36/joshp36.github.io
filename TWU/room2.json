@@ -2,7 +2,7 @@
     "default": {
         "sceneFadeDuration": 750,
         "autoLoad": true,
-        "type": "equirectangular",
+        "type": "multires",
         "hfov": 108.0,
         "autoRotate": -1,
         "compass": false,
