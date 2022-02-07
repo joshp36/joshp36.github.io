@@ -1,7 +1,7 @@
 {
     "hfov": 108.0,
     "type": "multires",
-    "hotSpotDebug": false,
+    "hotSpotDebug": true,
     "autoLoad": true,
     "autoRotate": -1,
     "multiRes": {
