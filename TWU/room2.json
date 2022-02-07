@@ -1,0 +1,67 @@
+{
+    "default": {
+        "sceneFadeDuration": 750,
+        "autoLoad": true,
+        "type": "equirectangular",
+        "hfov": 108.0,
+        "autoRotate": -1,
+        "compass": false,
+        "hotSpotDebug": false
+    },
+
+    "scenes": {
+      
+         "room2a": {
+                     "title": "room/area title here",
+                     "author": "room/area description here",
+                     "northOffset": 0,
+                     "yaw": 0,
+                      "multiRes": {
+                                    "basePath": "panos/room2a",
+                                    "path": "/%l/%s%y_%x",
+                                    "fallbackPath": "/fallback/%s",
+                                    "extension": "jpg",
+                                    "tileResolution": 512,
+                                    "maxLevel": 6,
+                                    "cubeResolution": 9544
+                                },
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "bathroom",
+                                    "sceneId": "room2b",
+                                    "pitch": -9,
+                                    "yaw": -11,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+
+         "room2b": {
+                     "title": "room/area title here",
+                     "author": "room/area description here",
+                     "northOffset": 0,
+                     "yaw": 0,
+                      "multiRes": {
+                                    "basePath": "panos/room2b",
+                                    "path": "/%l/%s%y_%x",
+                                    "fallbackPath": "/fallback/%s",
+                                    "extension": "jpg",
+                                    "tileResolution": 512,
+                                    "maxLevel": 6,
+                                    "cubeResolution": 9544
+                                },
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "bedroom",
+                                    "sceneId": "room2a",
+                                    "pitch": -22,
+                                    "yaw": 162,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    }
+
+    }
+}

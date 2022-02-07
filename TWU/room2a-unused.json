@@ -1,0 +1,16 @@
+{
+    "hfov": 100.0,
+    "type": "multires",
+    "hotSpotDebug": false,
+    "autoLoad": true,
+    "autoRotate": -1,
+    "multiRes": {
+        "basePath": "panos/room2a",
+        "path": "/%l/%s%y_%x",
+        "fallbackPath": "/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 6,
+        "cubeResolution": 9544
+    }
+}
