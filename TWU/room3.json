@@ -6,7 +6,7 @@
         "hfov": 108.0,
         "autoRotate": -1,
         "compass": false,
-        "hotSpotDebug": true
+        "hotSpotDebug": false
     },
 
     "scenes": {
