@@ -1,0 +1,67 @@
+{
+    "default": {
+        "sceneFadeDuration": 750,
+        "autoLoad": true,
+        "type": "multires",
+        "hfov": 108.0,
+        "autoRotate": -1,
+        "compass": false,
+        "hotSpotDebug": true
+    },
+
+    "scenes": {
+      
+         "room3a": {
+                     "title": "Lowry Woods entry",
+                     "author": "",
+                     "northOffset": 0,
+                     "yaw": 0,
+                      "multiRes": {
+                                    "basePath": "panos/room4a",
+                                    "path": "/%l/%s%y_%x",
+                                    "fallbackPath": "/fallback/%s",
+                                    "extension": "jpg",
+                                    "tileResolution": 512,
+                                    "maxLevel": 5,
+                                    "cubeResolution": 7952
+                                },
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "bedroom",
+                                    "sceneId": "room4b",
+                                    "pitch": -5.8,
+                                    "yaw": 82.9,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+
+         "room3b": {
+                     "title": "Lowry Woods bedroom",
+                     "author": "",
+                     "northOffset": 0,
+                     "yaw": 0,
+                      "multiRes": {
+                                    "basePath": "panos/room4b",
+                                    "path": "/%l/%s%y_%x",
+                                    "fallbackPath": "/fallback/%s",
+                                    "extension": "jpg",
+                                    "tileResolution": 512,
+                                    "maxLevel": 6,
+                                    "cubeResolution": 7952
+                                },
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "entry",
+                                    "sceneId": "room4a",
+                                    "pitch": -22,
+                                    "yaw": 162,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    }
+
+    }
+}
