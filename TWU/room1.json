@@ -1,7 +1,7 @@
 {
     "hfov": 108.0,
     "type": "multires",
-    "hotSpotDebug": true,
+    "hotSpotDebug": false,
     "autoLoad": true,
     "autoRotate": -1,
     "title": "Parliament Village bedroom",
