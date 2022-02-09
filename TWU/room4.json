@@ -11,7 +11,7 @@
 
     "scenes": {
       
-         "room3a": {
+         "room4a": {
                      "title": "Lowry Woods entry",
                      "author": "",
                      "northOffset": 0,
@@ -30,14 +30,14 @@
                                     "type": "scene",
                                     "text": "bedroom",
                                     "sceneId": "room4b",
-                                    "pitch": -5.8,
-                                    "yaw": 82.9,
+                                    "pitch": -24,
+                                    "yaw": -70.1,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
                     },
 
-         "room3b": {
+         "room4b": {
                      "title": "Lowry Woods bedroom",
                      "author": "",
                      "northOffset": 0,
@@ -48,7 +48,7 @@
                                     "fallbackPath": "/fallback/%s",
                                     "extension": "jpg",
                                     "tileResolution": 512,
-                                    "maxLevel": 6,
+                                    "maxLevel": 5,
                                     "cubeResolution": 7952
                                 },
                      "hotSpots": [
