@@ -4,6 +4,8 @@
     "hotSpotDebug": true,
     "autoLoad": true,
     "autoRotate": -1,
+    "title": "Parliament Village bedroom",
+    "author": "room/area description here",
     "multiRes": {
         "basePath": "panos/room1",
         "path": "/%l/%s%y_%x",

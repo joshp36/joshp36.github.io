@@ -12,7 +12,7 @@
     "scenes": {
       
          "room3a": {
-                     "title": "room/area title here",
+                     "title": "Guinn Hall bedroom",
                      "author": "room/area description here",
                      "northOffset": 0,
                      "yaw": 0,
@@ -30,15 +30,15 @@
                                     "type": "scene",
                                     "text": "bathroom",
                                     "sceneId": "room3b",
-                                    "pitch": -9,
-                                    "yaw": -11,
+                                    "pitch": -5.8,
+                                    "yaw": 82.9,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
                     },
 
          "room3b": {
-                     "title": "room/area title here",
+                     "title": "Guinn bathroom",
                      "author": "room/area description here",
                      "northOffset": 0,
                      "yaw": 0,

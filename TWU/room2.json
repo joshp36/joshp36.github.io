@@ -12,7 +12,7 @@
     "scenes": {
       
          "room2a": {
-                     "title": "room/area title here",
+                     "title": "Stark Hall bedroom",
                      "author": "room/area description here",
                      "northOffset": 0,
                      "yaw": 0,
@@ -30,15 +30,15 @@
                                     "type": "scene",
                                     "text": "bathroom",
                                     "sceneId": "room2b",
-                                    "pitch": -9,
-                                    "yaw": -11,
+                                    "pitch": -5.3,
+                                    "yaw": -92.3,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
                     },
 
          "room2b": {
-                     "title": "room/area title here",
+                     "title": "Stark Hall bathroom",
                      "author": "room/area description here",
                      "northOffset": 0,
                      "yaw": 0,
@@ -56,8 +56,8 @@
                                     "type": "scene",
                                     "text": "bedroom",
                                     "sceneId": "room2a",
-                                    "pitch": -22,
-                                    "yaw": 162,
+                                    "pitch": -11.6,
+                                    "yaw": 146.8,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
