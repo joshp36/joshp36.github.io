@@ -6,7 +6,7 @@
         "hfov": 108.0,
         "autoRotate": -1,
         "compass": false,
-        "hotSpotDebug": true
+        "hotSpotDebug": false
     },
 
     "scenes": {
@@ -56,8 +56,8 @@
                                     "type": "scene",
                                     "text": "bedroom",
                                     "sceneId": "room3a",
-                                    "pitch": -22,
-                                    "yaw": 162,
+                                    "pitch": -27.6,
+                                    "yaw": -153,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
