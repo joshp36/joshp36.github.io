@@ -3,7 +3,7 @@
         "sceneFadeDuration": 750,
         "autoLoad": true,
         "type": "multires",
-        "hfov": 108.0,
+        "hfov": 108.1,
         "autoRotate": -1,
         "compass": false,
         "hotSpotDebug": false
