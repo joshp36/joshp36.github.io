@@ -13,7 +13,7 @@
       
          "room2a": {
                      "title": "Stark Hall bedroom",
-                     "author": "room/area description here",
+                     "author": "",
                      "northOffset": 0,
                      "yaw": 0,
                       "multiRes": {
@@ -39,7 +39,7 @@
 
          "room2b": {
                      "title": "Stark Hall bathroom",
-                     "author": "room/area description here",
+                     "author": "",
                      "northOffset": 0,
                      "yaw": 0,
                       "multiRes": {

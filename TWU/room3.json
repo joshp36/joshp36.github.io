@@ -13,7 +13,7 @@
       
          "room3a": {
                      "title": "Guinn Hall bedroom",
-                     "author": "room/area description here",
+                     "author": "",
                      "northOffset": 0,
                      "yaw": 0,
                       "multiRes": {
@@ -39,7 +39,7 @@
 
          "room3b": {
                      "title": "Guinn bathroom",
-                     "author": "room/area description here",
+                     "author": "",
                      "northOffset": 0,
                      "yaw": 0,
                       "multiRes": {
