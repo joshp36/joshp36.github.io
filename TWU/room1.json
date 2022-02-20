@@ -7,7 +7,7 @@
     "title": "Parliament Village bedroom",
     "author": "",
     "multiRes": {
-        "basePath": "panos/room1",
+        "basePath": "panos/room1L",
         "path": "/%l/%s%y_%x",
         "fallbackPath": "/fallback/%s",
         "extension": "jpg",
