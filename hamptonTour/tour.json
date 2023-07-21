@@ -1,0 +1,876 @@
+{
+    "default": {
+        "firstScene": "porch",
+        "sceneFadeDuration": 750,
+        "autoLoad": true,
+        "type": "equirectangular",
+        "hfov": 108.0,
+        "autoRotate": -1,
+        "compass": true,
+        "hotSpotDebug": false
+    },
+
+    "scenes": {
+      
+         "living": {
+                     "title": "Living Room",
+                     "author": "Click the arrows to navigate through the space",
+                     "panorama": "images/living.jpg",
+                     "northOffset": -30,
+                     "yaw": -2.4,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "(arch)",
+                                    "sceneId": "livingDining",
+                                    "pitch": -9,
+                                    "yaw": -11,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "hallway",
+                                    "sceneId": "hall1",
+                                    "pitch": -9,
+                                    "yaw": -110,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "Dining Room",
+                                    "sceneId": "dining",
+                                    "pitch": -9,
+                                    "yaw": -150,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "front porch",
+                                    "sceneId": "porch",
+                                    "pitch": -9,
+                                    "yaw": -130,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+
+         "hall1": {
+                     "title": "hallway",
+                     "author": "Click the arrows to navigate through the space",
+                     "panorama": "images/hall1.jpg",
+                     "northOffset": 47.9,
+                     "pitch": -10.5,
+                     "yaw": 162,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "Living Room",
+                                    "sceneId": "living",
+                                    "pitch": -22,
+                                    "yaw": 52,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "Bedroom 1",
+                                    "sceneId": "bed1",
+                                    "pitch": -22,
+                                    "yaw": 82,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "hallway",
+                                    "sceneId": "hall2",
+                                    "pitch": -22,
+                                    "yaw": 162,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+
+         "bed1": {
+                     "title": "Bedroom 1",
+                     "author": "",
+                     "panorama": "images/bed1.jpg",
+                     "northOffset": 39.8,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "hallway",
+                                    "sceneId": "hall1",
+                                    "pitch": -24,
+                                    "yaw": -3.5,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+
+         "hall2": {
+                     "title": "hallway",
+                     "author": "",
+                     "panorama": "images/hall2.jpg",
+                     "northOffset": 128.3,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "hallway",
+                                    "sceneId": "hall1",
+                                    "pitch": -11,
+                                    "yaw": 11,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "Bedroom 1",
+                                    "sceneId": "bed1",
+                                    "pitch": -3.5,
+                                    "yaw": -2,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "Hallway Bathroom",
+                                    "sceneId": "hallBath",
+                                    "pitch": -3.5,
+                                    "yaw": -20,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "Bedroom 2",
+                                    "sceneId": "bed2",
+                                    "pitch": -3.5,
+                                    "yaw": -30,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+
+         "hallBath": {
+                     "title": "Hallway Bathroom",
+                     "author": "",
+                     "panorama": "images/hallBath.jpg",
+                     "northOffset": -50.7,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "hallway",
+                                    "sceneId": "hall2",
+                                    "pitch": -11,
+                                    "yaw": -29,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+
+         "bed2": {
+                     "title": "Bedroom 2",
+                     "author": "",
+                     "panorama": "images/bed2.jpg",
+                     "northOffset": 90,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "hallway",
+                                    "sceneId": "hall2",
+                                    "pitch": -28,
+                                    "yaw": 0.5,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "Master Bedroom",
+                                    "sceneId": "master1",
+                                    "pitch": -5,
+                                    "yaw": 3,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+
+         "master1": {
+                     "title": "Master Bedroom entrance",
+                     "author": "",
+                     "panorama": "images/master1.jpg",
+                     "northOffset": -178.5,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "Master Bedroom",
+                                    "sceneId": "master2",
+                                    "pitch": -8,
+                                    "yaw": 180,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "Dining Room",
+                                    "sceneId": "dining",
+                                    "pitch": -9,
+                                    "yaw": 118,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+
+         "master2": {
+                     "title": "Master Bedroom",
+                     "author": "",
+                     "panorama": "images/master2.jpg",
+                     "northOffset": -80.9,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "Master closet",
+                                    "sceneId": "masterCloset",
+                                    "pitch": -13,
+                                    "yaw": 32,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "Master bathroom",
+                                    "sceneId": "masterBath",
+                                    "pitch": -8,
+                                    "yaw": -39,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "",
+                                    "sceneId": "master1",
+                                    "pitch": -35,
+                                    "yaw": -165,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "Bedroom 2",
+                                    "sceneId": "bed2",
+                                    "pitch": -8.4,
+                                    "yaw": -179,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+
+         "masterCloset": {
+                     "title": "Master closet",
+                     "author": "",
+                     "panorama": "images/masterCloset.jpg",
+                     "northOffset": -58.8,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "Master Bedroom",
+                                    "sceneId": "master2",
+                                    "pitch": -24,
+                                    "yaw": 205,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+
+         "masterBath": {
+                     "title": "Master Bathroom",
+                     "author": "",
+                     "panorama": "images/masterBath.jpg",
+                     "northOffset": -58.8,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "Master Bedroom",
+                                    "sceneId": "master2",
+                                    "pitch": -24,
+                                    "yaw": 205,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+
+         "dining": {
+                     "title": "Dining Room",
+                     "author": "",
+                     "panorama": "images/dining.jpg",
+                     "northOffset": 260.7,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "(arch)",
+                                    "sceneId": "livingDining",
+                                    "pitch": -18,
+                                    "yaw": 127,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "Master Bedroom",
+                                    "sceneId": "master1",
+                                    "pitch": -7,
+                                    "yaw": 215,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "Living Room",
+                                    "sceneId": "living",
+                                    "pitch": -35,
+                                    "yaw": 344,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "front porch",
+                                    "sceneId": "porch",
+                                    "pitch": -8,
+                                    "yaw": 341,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "Kitchen",
+                                    "sceneId": "kitchen",
+                                    "pitch": -8,
+                                    "yaw": 351,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "(backyard)",
+                                    "sceneId": "back2",
+                                    "pitch": -8,
+                                    "yaw": 351,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+
+         "kitchen": {
+                     "title": "Kitchen",
+                     "author": "",
+                     "panorama": "images/kitchen.jpg",
+                     "northOffset": 27.3,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "Dining Room",
+                                    "sceneId": "dining",
+                                    "pitch": -22,
+                                    "yaw": 195,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "laundry room",
+                                    "sceneId": "laundry",
+                                    "pitch": -9,
+                                    "yaw": 143,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+
+         "laundry": {
+                     "title": "Laundry Room",
+                     "author": "",
+                     "panorama": "images/laundry.jpg",
+                     "northOffset": -61.8,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "Kitchen",
+                                    "sceneId": "kitchen",
+                                    "pitch": -25,
+                                    "yaw": -72,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "garage",
+                                    "sceneId": "garage",
+                                    "pitch": -7,
+                                    "yaw": 0,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "(backyard)",
+                                    "sceneId": "back1",
+                                    "pitch": -8,
+                                    "yaw": 124.5,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+
+         "garage": {
+                     "title": "Garage",
+                     "author": "",
+                     "panorama": "images/garage.jpg",
+                     "northOffset": -133.5,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "laundry room",
+                                    "sceneId": "laundry",
+                                    "pitch": -22,
+                                    "yaw": 177,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "(driveway)",
+                                    "sceneId": "driveway",
+                                    "pitch": -5.5,
+                                    "yaw": 122,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+
+         "porch": {
+                     "title": "Front Porch",
+                     "author": "",
+                     "panorama": "images/porch.jpg",
+                     "northOffset": 129.9,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "Living Room",
+                                    "sceneId": "living",
+                                    "pitch": -8,
+                                    "yaw": -78,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "front yard",
+                                    "sceneId": "frontCenter",
+                                    "pitch": -6,
+                                    "yaw": -178,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                               ]
+                    },
+
+         "frontCenter": {
+                     "title": "",
+                     "author": "",
+                     "panorama": "images/frontCenter.jpg",
+                     "northOffset": -114.4,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "front porch",
+                                    "sceneId": "porch",
+                                    "pitch": -13,
+                                    "yaw": 113,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "right of front",
+                                    "sceneId": "frontRight",
+                                    "pitch": -9,
+                                    "yaw": 27,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "left of front",
+                                    "sceneId": "frontLeft",
+                                    "pitch": -15,
+                                    "yaw": 212,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "driveway",
+                                    "sceneId": "driveway",
+                                    "pitch": -21,
+                                    "yaw": 294,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+
+         "frontRight": {
+                     "title": "right of front yard",
+                     "author": "",
+                     "panorama": "images/frontRight.jpg",
+                     "northOffset": -26.3,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "center of front yard",
+                                    "sceneId": "frontCenter",
+                                    "pitch": -7.6,
+                                    "yaw": 111.4,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+
+         "frontLeft": {
+                     "title": "left of front yard",
+                     "author": "",
+                     "panorama": "images/frontLeft.jpg",
+                     "northOffset": -148.8,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "center of front yard",
+                                    "sceneId": "frontCenter",
+                                    "pitch": -8.8,
+                                    "yaw": 78.4,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "front porch",
+                                    "sceneId": "porch",
+                                    "pitch": -10,
+                                    "yaw": -58.2,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "driveway",
+                                    "sceneId": "driveway",
+                                    "pitch": -10,
+                                    "yaw": -60.2,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "side of house",
+                                    "sceneId": "side1",
+                                    "pitch": -10,
+                                    "yaw": -68.2,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+
+         "driveway": {
+                     "title": "Driveway",
+                     "author": "",
+                     "panorama": "images/driveway.jpg",
+                     "northOffset": 50,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "front porch",
+                                    "sceneId": "porch",
+                                    "pitch": -9,
+                                    "yaw": -51.5,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "front yard",
+                                    "sceneId": "frontCenter",
+                                    "pitch": -26,
+                                    "yaw": -53,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "end of driveway",
+                                    "sceneId": "frontLeft",
+                                    "pitch": -8,
+                                    "yaw": -133,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "side of house",
+                                    "sceneId": "side1",
+                                    "pitch": -13.5,
+                                    "yaw": 57,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "info",
+                                    "text": "(inside garage)",
+                                    "sceneId": "garage",
+                                    "pitch": -14,
+                                    "yaw": -197,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+
+         "side1": {
+                     "title": "side of house",
+                     "author": "",
+                     "panorama": "images/side1.jpg",
+                     "northOffset": 21.8,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "",
+                                    "sceneId": "side2",
+                                    "pitch": -27,
+                                    "yaw": 75,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "driveway",
+                                    "sceneId": "driveway",
+                                    "pitch": -15,
+                                    "yaw": -109,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "left of front yard",
+                                    "sceneId": "frontLeft",
+                                    "pitch": -6,
+                                    "yaw": 77,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+
+         "side2": {
+                     "title": "side of house",
+                     "author": "",
+                     "panorama": "images/side2.jpg",
+                     "northOffset": 59.3,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "backyard",
+                                    "sceneId": "back1",
+                                    "pitch": -15,
+                                    "yaw": 26,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "",
+                                    "sceneId": "side1",
+                                    "pitch": -31,
+                                    "yaw": 16,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+
+         "back1": {
+                     "title": "backyard",
+                     "author": "",
+                     "panorama": "images/back1.jpg",
+                     "northOffset": -140.3,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "side of house",
+                                    "sceneId": "side2",
+                                    "pitch": -33.5,
+                                    "yaw": 71,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "(laundry room)",
+                                    "sceneId": "laundry",
+                                    "pitch": -5.5,
+                                    "yaw": 160,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "(behind dining)",
+                                    "sceneId": "back2",
+                                    "pitch": -4.9,
+                                    "yaw": 63.7,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "(left of stump)",
+                                    "sceneId": "back3",
+                                    "pitch": -4.9,
+                                    "yaw": 53.7,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "(right of stump)",
+                                    "sceneId": "back4",
+                                    "pitch": -4.9,
+                                    "yaw": 43.7,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                  ]
+                    },
+         "back2": {
+                     "title": "backyard",
+                     "author": "",
+                     "panorama": "images/back2.jpg",
+                     "northOffset": -140.3,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "side of house",
+                                    "sceneId": "side2",
+                                    "pitch": -33.5,
+                                    "yaw": 71,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "(dining room)",
+                                    "sceneId": "dining",
+                                    "pitch": -5.5,
+                                    "yaw": 160,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "(behind laundry)",
+                                    "sceneId": "back1",
+                                    "pitch": -4.9,
+                                    "yaw": 63.7,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "(left of stump)",
+                                    "sceneId": "back3",
+                                    "pitch": -4.9,
+                                    "yaw": 53.7,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "(right of stump)",
+                                    "sceneId": "back4",
+                                    "pitch": -4.9,
+                                    "yaw": 43.7,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+         "back3": {
+                     "title": "backyard",
+                     "author": "",
+                     "panorama": "images/back3.jpg",
+                     "northOffset": -140.3,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "back1",
+                                    "sceneId": "back1",
+                                    "pitch": -33.5,
+                                    "yaw": 71,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "back2",
+                                    "sceneId": "back2",
+                                    "pitch": -5.5,
+                                    "yaw": 160,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "back4",
+                                    "sceneId": "back4",
+                                    "pitch": -4.9,
+                                    "yaw": 63.7,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "back5",
+                                    "sceneId": "back5",
+                                    "pitch": -4.9,
+                                    "yaw": 53.7,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "side of house",
+                                    "sceneId": "side2",
+                                    "pitch": -4.9,
+                                    "yaw": 43.7,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+         "back4": {
+                     "title": "backyard",
+                     "author": "",
+                     "panorama": "images/back4.jpg",
+                     "northOffset": -140.3,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "back1",
+                                    "sceneId": "back1",
+                                    "pitch": -33.5,
+                                    "yaw": 71,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "back2",
+                                    "sceneId": "back2",
+                                    "pitch": -5.5,
+                                    "yaw": 160,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "back3",
+                                    "sceneId": "back3",
+                                    "pitch": -4.9,
+                                    "yaw": 63.7,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "back5",
+                                    "sceneId": "back5",
+                                    "pitch": -4.9,
+                                    "yaw": 53.7,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+         "back5": {
+                     "title": "backyard",
+                     "author": "",
+                     "panorama": "images/back4.jpg",
+                     "northOffset": -140.3,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "back3",
+                                    "sceneId": "back3",
+                                    "pitch": -33.5,
+                                    "yaw": 71,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "back4",
+                                    "sceneId": "back4",
+                                    "pitch": -5.5,
+                                    "yaw": 160,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    }
+
+
+
+
+    }
+}
