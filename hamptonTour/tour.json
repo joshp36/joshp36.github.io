@@ -101,14 +101,14 @@
                      "title": "Bedroom 1",
                      "author": "",
                      "panorama": "images/bed1.jpg",
-                     "northOffset": 39.8,
+                     "northOffset": -272.4,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "hallway",
                                     "sceneId": "hall1",
-                                    "pitch": -24,
-                                    "yaw": -3.5,
+                                    "pitch": -4.2,
+                                    "yaw": 325.6,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -118,38 +118,38 @@
                      "title": "hallway",
                      "author": "",
                      "panorama": "images/hall2.jpg",
-                     "northOffset": 128.3,
+                     "northOffset": 40,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "hallway",
                                     "sceneId": "hall1",
-                                    "pitch": -11,
-                                    "yaw": 11,
+                                    "pitch": -36.5,
+                                    "yaw":233.6,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "Bedroom 1",
                                     "sceneId": "bed1",
-                                    "pitch": -3.5,
-                                    "yaw": -2,
+                                    "pitch": -3.6,
+                                    "yaw": -230.4,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "Hallway Bathroom",
                                     "sceneId": "hallBath",
-                                    "pitch": -3.5,
-                                    "yaw": -20,
+                                    "pitch": -11.5,
+                                    "yaw": 158.4,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "Bedroom 2",
                                     "sceneId": "bed2",
-                                    "pitch": -3.5,
-                                    "yaw": -30,
+                                    "pitch": -5.9,
+                                    "yaw": 68.5,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -159,7 +159,7 @@
                      "title": "Hallway Bathroom",
                      "author": "",
                      "panorama": "images/hallBath.jpg",
-                     "northOffset": -50.7,
+                     "northOffset": 47.4,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -176,13 +176,13 @@
                      "title": "Bedroom 2",
                      "author": "",
                      "panorama": "images/bed2.jpg",
-                     "northOffset": 90,
+                     "northOffset": -72,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "hallway",
                                     "sceneId": "hall2",
-                                    "pitch": -28,
+                                    "pitch": -5.7,
                                     "yaw": 0.5,
                                     "targetYaw": "sameAzimuth"
                                   },
@@ -191,7 +191,7 @@
                                     "text": "Master Bedroom",
                                     "sceneId": "master1",
                                     "pitch": -5,
-                                    "yaw": 3,
+                                    "yaw": -140.1,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -201,22 +201,30 @@
                      "title": "Master Bedroom entrance",
                      "author": "",
                      "panorama": "images/master1.jpg",
-                     "northOffset": -178.5,
+                     "northOffset": -357.8,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "Master Bedroom",
                                     "sceneId": "master2",
-                                    "pitch": -8,
-                                    "yaw": 180,
+                                    "pitch": -6.1,
+                                    "yaw": 142.2,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "Dining Room",
                                     "sceneId": "dining",
-                                    "pitch": -9,
-                                    "yaw": 118,
+                                    "pitch": -1.8,
+                                    "yaw": -47.8,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "Bedroom 2",
+                                    "sceneId": "bed2",
+                                    "pitch": -20.3,
+                                    "yaw": 240.1,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -226,14 +234,14 @@
                      "title": "Master Bedroom",
                      "author": "",
                      "panorama": "images/master2.jpg",
-                     "northOffset": -80.9,
+                     "northOffset": -1.6,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "Master closet",
                                     "sceneId": "masterCloset",
-                                    "pitch": -13,
-                                    "yaw": 32,
+                                    "pitch": -8,
+                                    "yaw": -12.7,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
@@ -241,23 +249,23 @@
                                     "text": "Master bathroom",
                                     "sceneId": "masterBath",
                                     "pitch": -8,
-                                    "yaw": -39,
+                                    "yaw": 18,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "",
                                     "sceneId": "master1",
-                                    "pitch": -35,
-                                    "yaw": -165,
+                                    "pitch": -4.2,
+                                    "yaw": -47.2,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "Bedroom 2",
                                     "sceneId": "bed2",
-                                    "pitch": -8.4,
-                                    "yaw": -179,
+                                    "pitch": -4.5,
+                                    "yaw": -61.8,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -267,14 +275,14 @@
                      "title": "Master closet",
                      "author": "",
                      "panorama": "images/masterCloset.jpg",
-                     "northOffset": -58.8,
+                     "northOffset": 117,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "Master Bedroom",
                                     "sceneId": "master2",
-                                    "pitch": -24,
-                                    "yaw": 205,
+                                    "pitch": -9.5,
+                                    "yaw": 43,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -284,14 +292,14 @@
                      "title": "Master Bathroom",
                      "author": "",
                      "panorama": "images/masterBath.jpg",
-                     "northOffset": -58.8,
+                     "northOffset": 41.6,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "Master Bedroom",
                                     "sceneId": "master2",
-                                    "pitch": -24,
-                                    "yaw": 205,
+                                    "pitch": -5.7,
+                                    "yaw": -195,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -301,54 +309,54 @@
                      "title": "Dining Room",
                      "author": "",
                      "panorama": "images/dining.jpg",
-                     "northOffset": 260.7,
+                     "northOffset": 29,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "(arch)",
                                     "sceneId": "livingDining",
-                                    "pitch": -18,
-                                    "yaw": 127,
+                                    "pitch": -45.7,
+                                    "yaw": -58.8,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "Master Bedroom",
                                     "sceneId": "master1",
-                                    "pitch": -7,
-                                    "yaw": 215,
+                                    "pitch": -3.9,
+                                    "yaw": -194,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "Living Room",
                                     "sceneId": "living",
-                                    "pitch": -35,
-                                    "yaw": 344,
+                                    "pitch": -17.2,
+                                    "yaw": -60,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "front porch",
                                     "sceneId": "porch",
-                                    "pitch": -8,
-                                    "yaw": 341,
+                                    "pitch": -3,
+                                    "yaw": -70,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "Kitchen",
                                     "sceneId": "kitchen",
-                                    "pitch": -8,
-                                    "yaw": 351,
+                                    "pitch": -6.5,
+                                    "yaw": 29,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "(backyard)",
                                     "sceneId": "back2",
-                                    "pitch": -8,
-                                    "yaw": 351,
+                                    "pitch": -8.5,
+                                    "yaw": -240.6,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -358,38 +366,38 @@
                      "title": "Living/Dining Room",
                      "author": "",
                      "panorama": "images/livingDining.jpg",
-                     "northOffset": 260.7,
+                     "northOffset": -89,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "Living Room",
                                     "sceneId": "living",
-                                    "pitch": -18,
-                                    "yaw": 127,
+                                    "pitch": -27,
+                                    "yaw": -1,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "Kitchen",
                                     "sceneId": "kitchen",
-                                    "pitch": -7,
-                                    "yaw": 215,
+                                    "pitch": -9,
+                                    "yaw": 117.5,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "Dining Room",
                                     "sceneId": "dining",
-                                    "pitch": -35,
-                                    "yaw": 344,
+                                    "pitch": -43.3,
+                                    "yaw": 183.5,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "Master Bedroom",
                                     "sceneId": "master1",
-                                    "pitch": -8,
-                                    "yaw": 341,
+                                    "pitch": -4.9,
+                                    "yaw": 205,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -399,22 +407,22 @@
                      "title": "Kitchen",
                      "author": "",
                      "panorama": "images/kitchen.jpg",
-                     "northOffset": 27.3,
+                     "northOffset": 19,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "Dining Room",
                                     "sceneId": "dining",
-                                    "pitch": -22,
-                                    "yaw": 195,
+                                    "pitch": -6,
+                                    "yaw": -193.4,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "laundry room",
                                     "sceneId": "laundry",
-                                    "pitch": -9,
-                                    "yaw": 143,
+                                    "pitch": -7,
+                                    "yaw": -51.4,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -424,30 +432,30 @@
                      "title": "Laundry Room",
                      "author": "",
                      "panorama": "images/laundry.jpg",
-                     "northOffset": -61.8,
+                     "northOffset": 250.4,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "Kitchen",
                                     "sceneId": "kitchen",
-                                    "pitch": -25,
-                                    "yaw": -72,
+                                    "pitch": -4.1,
+                                    "yaw": -54.9,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "garage",
                                     "sceneId": "garage",
-                                    "pitch": -7,
-                                    "yaw": 0,
+                                    "pitch": -17.3,
+                                    "yaw": -342,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "(backyard)",
                                     "sceneId": "back1",
-                                    "pitch": -8,
-                                    "yaw": 124.5,
+                                    "pitch": -5.7,
+                                    "yaw": -133.9,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -457,21 +465,21 @@
                      "title": "Garage",
                      "author": "",
                      "panorama": "images/garage.jpg",
-                     "northOffset": -133.5,
+                     "northOffset": -70.6,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "laundry room",
                                     "sceneId": "laundry",
-                                    "pitch": -22,
-                                    "yaw": 177,
+                                    "pitch": 0.6,
+                                    "yaw": -205.7,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "(driveway)",
                                     "sceneId": "driveway",
-                                    "pitch": -5.5,
+                                    "pitch": -6.5,
                                     "yaw": 122,
                                     "targetYaw": "sameAzimuth"
                                   }
@@ -507,38 +515,38 @@
                      "title": "",
                      "author": "",
                      "panorama": "images/frontCenter.jpg",
-                     "northOffset": -114.4,
+                     "northOffset": 86.7,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "front porch",
                                     "sceneId": "porch",
-                                    "pitch": -13,
-                                    "yaw": 113,
+                                    "pitch": 3.3,
+                                    "yaw": 33.9,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "right of front",
                                     "sceneId": "frontRight",
-                                    "pitch": -9,
-                                    "yaw": 27,
+                                    "pitch": -8.6,
+                                    "yaw": 97.6,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "left of front",
                                     "sceneId": "frontLeft",
-                                    "pitch": -15,
-                                    "yaw": 212,
+                                    "pitch": -26.8,
+                                    "yaw": -113.3,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "driveway",
                                     "sceneId": "driveway",
-                                    "pitch": -21,
-                                    "yaw": 294,
+                                    "pitch": -11,
+                                    "yaw": -28.8,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -548,14 +556,14 @@
                      "title": "right of front yard",
                      "author": "",
                      "panorama": "images/frontRight.jpg",
-                     "northOffset": -26.3,
+                     "northOffset": 239.7,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "center of front yard",
                                     "sceneId": "frontCenter",
-                                    "pitch": -7.6,
-                                    "yaw": 111.4,
+                                    "pitch": -4.7,
+                                    "yaw": -222.8,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -565,38 +573,38 @@
                      "title": "left of front yard",
                      "author": "",
                      "panorama": "images/frontLeft.jpg",
-                     "northOffset": -148.8,
+                     "northOffset": -54,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "center of front yard",
                                     "sceneId": "frontCenter",
-                                    "pitch": -8.8,
-                                    "yaw": 78.4,
+                                    "pitch": -12.7,
+                                    "yaw": 213.4,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "front porch",
                                     "sceneId": "porch",
-                                    "pitch": -10,
-                                    "yaw": -58.2,
+                                    "pitch": 5,
+                                    "yaw": 184,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "driveway",
                                     "sceneId": "driveway",
-                                    "pitch": -10,
-                                    "yaw": -60.2,
+                                    "pitch": 3.4,
+                                    "yaw": 146,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "side of house",
                                     "sceneId": "side1",
-                                    "pitch": -10,
-                                    "yaw": -68.2,
+                                    "pitch": 6,
+                                    "yaw": 105.4,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -606,14 +614,14 @@
                      "title": "Driveway",
                      "author": "",
                      "panorama": "images/driveway.jpg",
-                     "northOffset": 50,
+                     "northOffset": 111,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "front porch",
                                     "sceneId": "porch",
-                                    "pitch": -9,
-                                    "yaw": -51.5,
+                                    "pitch": 1.4,
+                                    "yaw": 59.1,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
@@ -628,24 +636,24 @@
                                     "type": "scene",
                                     "text": "end of driveway",
                                     "sceneId": "frontLeft",
-                                    "pitch": -8,
-                                    "yaw": -133,
+                                    "pitch": -15.8,
+                                    "yaw": -209.6,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "side of house",
                                     "sceneId": "side1",
-                                    "pitch": -13.5,
-                                    "yaw": 57,
+                                    "pitch": -5,
+                                    "yaw": -99.3,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "(inside garage)",
                                     "sceneId": "garage",
-                                    "pitch": -14,
-                                    "yaw": -197,
+                                    "pitch": -8.7,
+                                    "yaw": -56.6,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
