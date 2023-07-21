@@ -16,39 +16,39 @@
                      "title": "Living Room",
                      "author": "Click the arrows to navigate through the space",
                      "panorama": "images/living.jpg",
-                     "northOffset": -30,
+                     "northOffset": 226,
                      "yaw": -2.4,
                      "hotSpots": [
                                   {
                                     "type": "scene",
-                                    "text": "(arch)",
+                                    "text": "",
                                     "sceneId": "livingDining",
-                                    "pitch": -9,
-                                    "yaw": -11,
+                                    "pitch": -26.5,
+                                    "yaw": -136.7,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "hallway",
                                     "sceneId": "hall1",
-                                    "pitch": -9,
-                                    "yaw": -110,
+                                    "pitch": -5.4,
+                                    "yaw": -4.5,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "Dining Room",
                                     "sceneId": "dining",
-                                    "pitch": -9,
-                                    "yaw": -150,
+                                    "pitch": -5.6,
+                                    "yaw": -136.5,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "front porch",
                                     "sceneId": "porch",
-                                    "pitch": -9,
-                                    "yaw": -130,
+                                    "pitch": -5.5,
+                                    "yaw": 22.75,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -58,7 +58,7 @@
                      "title": "hallway",
                      "author": "Click the arrows to navigate through the space",
                      "panorama": "images/hall1.jpg",
-                     "northOffset": 47.9,
+                     "northOffset": -40,
                      "pitch": -10.5,
                      "yaw": 162,
                      "hotSpots": [
@@ -66,24 +66,32 @@
                                     "type": "scene",
                                     "text": "Living Room",
                                     "sceneId": "living",
-                                    "pitch": -22,
-                                    "yaw": 52,
+                                    "pitch": -27.4,
+                                    "yaw": 73,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "Bedroom 1",
                                     "sceneId": "bed1",
-                                    "pitch": -22,
-                                    "yaw": 82,
+                                    "pitch": -24.5,
+                                    "yaw": -76,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "hallway",
                                     "sceneId": "hall2",
-                                    "pitch": -22,
-                                    "yaw": 162,
+                                    "pitch": -38,
+                                    "yaw": -223,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "Bedroom 2",
+                                    "sceneId": "bed2",
+                                    "pitch": -6,
+                                    "yaw": -221.6,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -346,6 +354,47 @@
                                  ]
                     },
 
+         "livingDining": {
+                     "title": "Living/Dining Room",
+                     "author": "",
+                     "panorama": "images/livingDining.jpg",
+                     "northOffset": 260.7,
+                     "hotSpots": [
+                                  {
+                                    "type": "scene",
+                                    "text": "Living Room",
+                                    "sceneId": "living",
+                                    "pitch": -18,
+                                    "yaw": 127,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "Kitchen",
+                                    "sceneId": "kitchen",
+                                    "pitch": -7,
+                                    "yaw": 215,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "Dining Room",
+                                    "sceneId": "dining",
+                                    "pitch": -35,
+                                    "yaw": 344,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "Master Bedroom",
+                                    "sceneId": "master1",
+                                    "pitch": -8,
+                                    "yaw": 341,
+                                    "targetYaw": "sameAzimuth"
+                                  }
+                                 ]
+                    },
+
          "kitchen": {
                      "title": "Kitchen",
                      "author": "",
@@ -433,22 +482,22 @@
                      "title": "Front Porch",
                      "author": "",
                      "panorama": "images/porch.jpg",
-                     "northOffset": 129.9,
+                     "northOffset": 132,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "Living Room",
                                     "sceneId": "living",
-                                    "pitch": -8,
-                                    "yaw": -78,
+                                    "pitch": -20,
+                                    "yaw": -61,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "front yard",
                                     "sceneId": "frontCenter",
-                                    "pitch": -6,
-                                    "yaw": -178,
+                                    "pitch": -18,
+                                    "yaw": -197,
                                     "targetYaw": "sameAzimuth"
                                   }
                                ]
@@ -592,7 +641,7 @@
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
-                                    "type": "info",
+                                    "type": "scene",
                                     "text": "(inside garage)",
                                     "sceneId": "garage",
                                     "pitch": -14,
