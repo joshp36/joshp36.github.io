@@ -182,16 +182,16 @@
                                     "type": "scene",
                                     "text": "hallway",
                                     "sceneId": "hall2",
-                                    "pitch": -5.7,
-                                    "yaw": 0.5,
+                                    "pitch": -5,
+                                    "yaw": -140.1,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "Master Bedroom",
                                     "sceneId": "master1",
-                                    "pitch": -5,
-                                    "yaw": -140.1,
+                                    "pitch": -5.7,
+                                    "yaw": 0.5,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -398,6 +398,14 @@
                                     "sceneId": "master1",
                                     "pitch": -4.9,
                                     "yaw": 205,
+                                    "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "front porch",
+                                    "sceneId": "porch",
+                                    "pitch": -3.2,
+                                    "yaw": -13.2,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
