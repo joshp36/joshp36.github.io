@@ -7,7 +7,7 @@
         "hfov": 108.0,
         "autoRotate": -1,
         "compass": true,
-        "hotSpotDebug": true
+        "hotSpotDebug": false
     },
 
     "scenes": {
@@ -759,8 +759,8 @@
                                     "type": "scene",
                                     "text": "(behind dining)",
                                     "sceneId": "back2",
-                                    "pitch": -24.5,
-                                    "yaw": -65.5,
+                                    "pitch": -21.5,
+                                    "yaw": -52.2,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
@@ -885,7 +885,7 @@
                      "hotSpots": [
                                   {
                                     "type": "scene",
-                                    "text": "back2",
+                                    "text": "(behind dining)",
                                     "sceneId": "back2",
                                     "pitch": -9.7,
                                     "yaw": -160.7,
@@ -893,7 +893,7 @@
                                   },
                                   {
                                     "type": "scene",
-                                    "text": "back3",
+                                    "text": "(other side of stump)",
                                     "sceneId": "back3",
                                     "pitch": -9.5,
                                     "yaw": -107.5,
@@ -901,7 +901,7 @@
                                   },
                                   {
                                     "type": "scene",
-                                    "text": "back5",
+                                    "text": "back by shed",
                                     "sceneId": "back5",
                                     "pitch": -3,
                                     "yaw": -19.1,
