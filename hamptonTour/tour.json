@@ -74,8 +74,8 @@
                                     "type": "scene",
                                     "text": "Bedroom 1",
                                     "sceneId": "bed1",
-                                    "pitch": -24.5,
-                                    "yaw": -76,
+                                    "pitch": -6.5,
+                                    "yaw": -128.4,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
@@ -176,7 +176,7 @@
                      "title": "Bedroom 2",
                      "author": "",
                      "panorama": "images/bed2.jpg",
-                     "northOffset": -72,
+                     "northOffset": 71.6,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -415,7 +415,7 @@
                      "title": "Kitchen",
                      "author": "",
                      "panorama": "images/kitchen.jpg",
-                     "northOffset": 19,
+                     "northOffset": -28.7,
                      "hotSpots": [
                                   {
                                     "type": "scene",
@@ -636,8 +636,8 @@
                                     "type": "scene",
                                     "text": "front yard",
                                     "sceneId": "frontCenter",
-                                    "pitch": -26,
-                                    "yaw": -53,
+                                    "pitch": -15.2,
+                                    "yaw": 120,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
@@ -671,30 +671,30 @@
                      "title": "side of house",
                      "author": "",
                      "panorama": "images/side1.jpg",
-                     "northOffset": 21.8,
+                     "northOffset": 48.3,
                      "hotSpots": [
                                   {
                                     "type": "scene",
-                                    "text": "",
+                                    "text": "(further back)",
                                     "sceneId": "side2",
-                                    "pitch": -27,
-                                    "yaw": 75,
+                                    "pitch": -10.5,
+                                    "yaw": 43,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "driveway",
                                     "sceneId": "driveway",
-                                    "pitch": -15,
-                                    "yaw": -109,
+                                    "pitch": -21,
+                                    "yaw": 135.8,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "left of front yard",
                                     "sceneId": "frontLeft",
-                                    "pitch": -6,
-                                    "yaw": 77,
+                                    "pitch": -14.8,
+                                    "yaw": 203,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -704,22 +704,22 @@
                      "title": "side of house",
                      "author": "",
                      "panorama": "images/side2.jpg",
-                     "northOffset": 59.3,
+                     "northOffset": 241.7,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "backyard",
                                     "sceneId": "back1",
-                                    "pitch": -15,
-                                    "yaw": 26,
+                                    "pitch": -5.5,
+                                    "yaw": -123,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
-                                    "text": "",
+                                    "text": "(toward front yard)",
                                     "sceneId": "side1",
-                                    "pitch": -31,
-                                    "yaw": 16,
+                                    "pitch": -10,
+                                    "yaw": 21.5,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -729,46 +729,46 @@
                      "title": "backyard",
                      "author": "",
                      "panorama": "images/back1.jpg",
-                     "northOffset": -140.3,
+                     "northOffset": -117.4,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "side of house",
                                     "sceneId": "side2",
-                                    "pitch": -33.5,
-                                    "yaw": 71,
+                                    "pitch": -8.5,
+                                    "yaw": 49,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "(laundry room)",
                                     "sceneId": "laundry",
-                                    "pitch": -5.5,
-                                    "yaw": 160,
+                                    "pitch": 0,
+                                    "yaw": 18,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "(behind dining)",
                                     "sceneId": "back2",
-                                    "pitch": -4.9,
-                                    "yaw": 63.7,
+                                    "pitch": -24.5,
+                                    "yaw": -65.5,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "(left of stump)",
                                     "sceneId": "back3",
-                                    "pitch": -4.9,
-                                    "yaw": 53.7,
+                                    "pitch": -9.2,
+                                    "yaw": -142.5,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "(right of stump)",
                                     "sceneId": "back4",
-                                    "pitch": -4.9,
-                                    "yaw": 43.7,
+                                    "pitch": -4,
+                                    "yaw": -112.4,
                                     "targetYaw": "sameAzimuth"
                                   }
                                   ]
@@ -777,46 +777,46 @@
                      "title": "backyard",
                      "author": "",
                      "panorama": "images/back2.jpg",
-                     "northOffset": -140.3,
+                     "northOffset": -154,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "side of house",
                                     "sceneId": "side2",
-                                    "pitch": -33.5,
-                                    "yaw": 71,
+                                    "pitch": -2.4,
+                                    "yaw": 113.7,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "(dining room)",
                                     "sceneId": "dining",
-                                    "pitch": -5.5,
-                                    "yaw": 160,
+                                    "pitch": 1.8,
+                                    "yaw": 20.2,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "(behind laundry)",
                                     "sceneId": "back1",
-                                    "pitch": -4.9,
-                                    "yaw": 63.7,
+                                    "pitch": -20.5,
+                                    "yaw": 154.8,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "(left of stump)",
                                     "sceneId": "back3",
-                                    "pitch": -4.9,
-                                    "yaw": 53.7,
+                                    "pitch": -7.8,
+                                    "yaw": 214.4,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "(right of stump)",
                                     "sceneId": "back4",
-                                    "pitch": -4.9,
-                                    "yaw": 43.7,
+                                    "pitch": -3.4,
+                                    "yaw": 246.3,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -825,46 +825,46 @@
                      "title": "backyard",
                      "author": "",
                      "panorama": "images/back3.jpg",
-                     "northOffset": -140.3,
+                     "northOffset": 53.6,
                      "hotSpots": [
                                   {
                                     "type": "scene",
                                     "text": "back1",
                                     "sceneId": "back1",
-                                    "pitch": -33.5,
-                                    "yaw": 71,
+                                    "pitch": -13.5,
+                                    "yaw": 236.5,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "back2",
                                     "sceneId": "back2",
-                                    "pitch": -5.5,
-                                    "yaw": 160,
+                                    "pitch": -14.8,
+                                    "yaw": 204.9,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "back4",
                                     "sceneId": "back4",
-                                    "pitch": -4.9,
-                                    "yaw": 63.7,
+                                    "pitch": -10.6,
+                                    "yaw": 100.8,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "back5",
                                     "sceneId": "back5",
-                                    "pitch": -4.9,
-                                    "yaw": 53.7,
+                                    "pitch": -4.4,
+                                    "yaw": 56.5,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "side of house",
                                     "sceneId": "side2",
-                                    "pitch": -4.9,
-                                    "yaw": 43.7,
+                                    "pitch": -2,
+                                    "yaw": 240,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -873,38 +873,30 @@
                      "title": "backyard",
                      "author": "",
                      "panorama": "images/back4.jpg",
-                     "northOffset": -140.3,
+                     "northOffset": 109,
                      "hotSpots": [
-                                  {
-                                    "type": "scene",
-                                    "text": "back1",
-                                    "sceneId": "back1",
-                                    "pitch": -33.5,
-                                    "yaw": 71,
-                                    "targetYaw": "sameAzimuth"
-                                  },
                                   {
                                     "type": "scene",
                                     "text": "back2",
                                     "sceneId": "back2",
-                                    "pitch": -5.5,
-                                    "yaw": 160,
+                                    "pitch": -9.7,
+                                    "yaw": -160.7,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "back3",
                                     "sceneId": "back3",
-                                    "pitch": -4.9,
-                                    "yaw": 63.7,
+                                    "pitch": -9.5,
+                                    "yaw": -107.5,
                                     "targetYaw": "sameAzimuth"
                                   },
                                   {
                                     "type": "scene",
                                     "text": "back5",
                                     "sceneId": "back5",
-                                    "pitch": -4.9,
-                                    "yaw": 53.7,
+                                    "pitch": -5.7,
+                                    "yaw": -23.5,
                                     "targetYaw": "sameAzimuth"
                                   }
                                  ]
@@ -912,7 +904,7 @@
          "back5": {
                      "title": "backyard",
                      "author": "",
-                     "panorama": "images/back4.jpg",
+                     "panorama": "images/back5.jpg",
                      "northOffset": -140.3,
                      "hotSpots": [
                                   {
