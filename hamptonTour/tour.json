@@ -407,6 +407,14 @@
                                     "pitch": -3.2,
                                     "yaw": -13.2,
                                     "targetYaw": "sameAzimuth"
+                                  },
+                                  {
+                                    "type": "scene",
+                                    "text": "front hallway",
+                                    "sceneId": "hall1",
+                                    "pitch": -3.3,
+                                    "yaw": -24.7,
+                                    "targetYaw": "sameAzimuth"
                                   }
                                  ]
                     },
